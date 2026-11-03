@@ -13,7 +13,7 @@
 
 **Process.**
 - 33 candidates were flagged by first-pass coding of 221 included papers. All were re-judged with full text (32 of 33 opened).
-- A blind second coder recoded a random 50 included papers and flagged 8 as E2. Of the 7 that were also first-pass candidates, the strict re-judgment agrees on 6.
+- A blind second coder recoded a stratified random sample of 50 included papers (15 first-pass E2 candidates, 35 others; `make_validation.py`). Agreement on the E2 flag was 41 of 50 (Cohen's κ = 0.51; `agreement.py`). The second coder flagged 8 as E2. Of the 7 that were also first-pass candidates, the strict re-judgment agrees on 6.
 - **Full-text check of all 19.** All 19 papers kept by the re-judgment were checked against their full text, condition by condition. The check was LLM-assisted: an LLM read each paper and proposed a verdict with section-level evidence, the authors reviewed every verdict, and the authors judged the ambiguous cases themselves against the full text. Records: `survey/big/human_check_E2_results.md` (a random sample of 10 included papers, covering 7 of the 19) and `human_check_E2_remaining12_results.md` (the other 12).
   - In the random sample of 10, all 7 strict-E2 papers were confirmed. Of the 3 disagreements, two concern whether refinement rounds count as repeated attempts, and the third (aborting runs predicted to fail) was marked unclear.
   - Across all 19, the check confirmed 13, left 4 borderline and rejected 2.
