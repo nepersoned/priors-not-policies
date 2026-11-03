@@ -1,0 +1,71 @@
+You are an expert competition-math coach. Rank the following problems from HARDEST to EASIEST for small open language models (around 1B-7B parameters) answering in a single attempt. Consider the number of reasoning steps, the chance of an arithmetic slip, and how unusual the required idea is. Do not solve them. Output exactly one line: RANKING: followed by all the ids, hardest first, separated by commas.
+
+[id=785] Find $y$: $\sqrt{19+3y} = 7$.
+
+[id=1680] Coplanar squares $ABGH$ and $BCDF$ are adjacent, with $CD = 10$ units and $AH = 5$ units. Point $E$ is on segments $AD$ and $GB$. What is the area of triangle $ABE$, in square units? Express your answer as a common fraction.
+
+[asy]
+draw((0,0)--(5,0)--(5,5)--(0,5)--(0,0)--cycle,linewidth(2));
+draw((5,0)--(15,0)--(15,10)--(5,10)--(5,0)--cycle,linewidth(2));
+
+draw((0,0)--(15,10),linewidth(2));
+
+filldraw((0,0)--(5,0)--(5,10/3)--(0,0)--cycle,gray,linewidth(2));
+
+label("A",(0,0),SW);
+label("B",(5,0),S);
+label("C",(15,0),SE);
+label("D",(15,10),NE);
+label("E",(5,10/3),SE);
+label("F",(5,10),NW);
+label("G",(5,5),NW);
+label("H",(0,5),NW);
+[/asy]
+
+[id=4988] Let $\mathbf{a}$ and $\mathbf{b}$ be orthogonal vectors.  If $\operatorname{proj}_{\mathbf{a}} \begin{pmatrix} 0 \\ 13 \end{pmatrix} = \begin{pmatrix} 6 \\ 4 \end{pmatrix},$ then find $\operatorname{proj}_{\mathbf{b}} \begin{pmatrix} 0 \\ 13 \end{pmatrix}.$
+
+[id=3666] In the prime factorization of $109!$, what is the exponent of $3$?  (Reminder: The number $n!$ is the product of the integers from 1 to $n$.  For example, $5!=5\cdot 4\cdot3\cdot2\cdot 1= 120$.)
+
+[id=2469] Compute the number of ordered pairs $(a,b)$ of integers such that the polynomials $x^2 - ax + 24$ and $x^2 - bx + 36$ have one root in common.
+
+[id=2652] For a real number $x,$ let
+\[f(x) = \max \{|x + 15|, |x + 12|, |x + 8|, |x - 1|, |x - 3|, |x - 19|\}.\]Find the minimum value of $f(x).$
+
+[id=974] How many real numbers are not in the domain of the function $$f(x) = \frac{1}{x-64} + \frac{1}{x^2-64} + \frac{1}{x^3-64}~?$$
+
+[id=2322] Let $a,$ $b,$ $c,$ $d,$ and $e$ be the distinct roots of the equation $x^5 + 7x^4 - 2 = 0.$  Find
+\begin{align*}
+&\frac{a^3}{(a - b)(a - c)(a - d)(a - e)} + \frac{b^3}{(b - a)(b - c)(b - d)(b - e)} \\
+&\quad + \frac{c^3}{(c - a)(c - b)(c - d)(c - e)} + \frac{d^3}{(d - a)(d - b)(d - c)(d - e)} \\
+&\quad + \frac{e^3}{(e - a)(e - b)(e - c)(e - d)}.
+\end{align*}
+
+[id=3873] What, in degrees, is the measure of the largest angle in $\triangle PQR?$
+
+[asy]
+draw((0,0)--(-1.3,4)--(7,0)--cycle);
+label("$P$",(-1.3,4),NW); label("$Q$",(0,0),SW); label("$R$",(7,0),SE);
+
+label("$6x^\circ$",(0,0),NE); label("$x^\circ$",(5,0),N); label("$3x^\circ$",(-.25,3));
+[/asy]
+
+[id=541] I pick two whole numbers $x$ and $y$ between $1$ and $10$ inclusive (not necessarily distinct). My friend picks two numbers $x -4$ and $2y-1$. If the product of my friend's numbers is one greater than the product of my numbers, then what is the product of my numbers?
+
+[id=2709] The function $f(x)$ satisfies
+\[f(f(x)) = 6x - 2005\]for all real numbers $x.$  There exists an integer $n$ such that $f(n) = 6n - 2005.$  Find $n.$
+
+[id=2704] If $f(x) = |3x - 1|,$ compute all values of $x$ for which $f(f(x)) = x.$  Enter all the solutions, separated by commas.
+
+[id=201] If $j$ and $k$ are inversely proportional and $j = 42$ when $k = 56$, what is the value of $j$ when $k = 32$? Express your answer as a decimal rounded to the nearest tenth.
+
+[id=1521] Julie baked cupcakes for her family at home and for a party at school. She iced 4 cupcakes with red frosting, 2 cupcakes with orange frosting, 2 with yellow, 2 with green, 3 with blue and the last 3 with violet frosting. Each cupcake is iced with exactly one color of frosting. Julie plans to take exactly 10 of the cupcakes to her party, and will take either all of the cupcakes of a particular color or none of the cupcakes of that color. How many different combinations of cupcakes could she take to her party?
+
+[id=1170] If \begin{align*}
+4x-y+2z&=7,\\
+6x+3y+3z&=5,
+\end{align*} compute $y$.
+
+[id=2188] Find all real values of $a$ for which the quadratic equation
+\[(3 - i) x^2 + (a + 4i) x - 115 + 5i = 0\]has at least one real root.
+
+Enter all the possible values of $a,$ separated by commas.

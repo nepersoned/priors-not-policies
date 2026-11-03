@@ -1,0 +1,122 @@
+[
+ {
+  "name": "PRM800K/binary",
+  "n_instances": 492,
+  "binary": true,
+  "power_r2_median": 0.9787510198744813,
+  "power_r2_p10": 0.9362372987655146,
+  "exp_r2_median": 1.0,
+  "true_by_budget": {
+   "4": 23.292526813481686,
+   "16": 67.5209496596796,
+   "64": 88.7400608003779
+  },
+  "u4": {
+   "sp_true_spread": 0.1371308016877637,
+   "sp_true_spread_lvl": 0.7692217533989686,
+   "sp_true_level": 0.7691514299109237,
+   "partial_spread|level": 0.6812010922410751,
+   "partial_level|spread": 0.8814269665550734,
+   "partial_spread|level,alpha": 0.446959636377799,
+   "partial_level|spread,alpha": -0.014764101924813589
+  },
+  "u16": {
+   "sp_true_spread": -0.41467416783872485,
+   "sp_true_spread_lvl": 0.4194327238631036,
+   "sp_true_level": 0.8852320675105486,
+   "partial_spread|level": -0.2375735835069274,
+   "partial_level|spread": 0.868016539631692,
+   "partial_spread|level,alpha": -0.3786695438242002,
+   "partial_level|spread,alpha": 0.08021482878915605
+  },
+  "u64": {
+   "sp_true_spread": -0.5724800750117206,
+   "sp_true_spread_lvl": 0.21479137365213316,
+   "sp_true_level": 0.7981012658227848,
+   "partial_spread|level": -0.5174833229365812,
+   "partial_level|spread": 0.7775568787378463,
+   "partial_spread|level,alpha": -0.45997883163942066,
+   "partial_level|spread,alpha": 0.07079793860389554
+  }
+ },
+ {
+  "name": "PRM800K/orm",
+  "n_instances": 495,
+  "binary": false,
+  "power_r2_median": 0.9913232276243712,
+  "power_r2_p10": 0.9680509320991627,
+  "exp_r2_median": 0.6340613532075061,
+  "true_by_budget": {
+   "4": 11.043983173507504,
+   "16": 18.315890082995004,
+   "64": 31.10190588067318
+  },
+  "u4": {
+   "sp_true_spread": 0.6811767463666198,
+   "sp_true_spread_lvl": 0.8413502109704641,
+   "sp_true_level": -0.6191748710736052,
+   "partial_spread|level": 0.6959584866535028,
+   "partial_level|spread": -0.6378055902272739,
+   "partial_spread|level,alpha": 0.40422250003782045,
+   "partial_level|spread,alpha": -0.08217254796687397
+  },
+  "u16": {
+   "sp_true_spread": 0.44582747304266296,
+   "sp_true_spread_lvl": 0.7300281293952181,
+   "sp_true_level": -0.8601265822784812,
+   "partial_spread|level": 0.47662708769730877,
+   "partial_level|spread": -0.8654730438365362,
+   "partial_spread|level,alpha": 0.0371860099085725,
+   "partial_level|spread,alpha": -0.19240435245861884
+  },
+  "u64": {
+   "sp_true_spread": 0.3454055321143929,
+   "sp_true_spread_lvl": 0.5600093764650728,
+   "sp_true_level": -0.8287857477730896,
+   "partial_spread|level": 0.26351442551453474,
+   "partial_level|spread": -0.818020310010838,
+   "partial_spread|level,alpha": -0.005456023219999643,
+   "partial_level|spread,alpha": 0.2402970238700869
+  }
+ },
+ {
+  "name": "PRM800K/prm",
+  "n_instances": 495,
+  "binary": false,
+  "power_r2_median": 0.9764067788367597,
+  "power_r2_p10": 0.8397553804185011,
+  "exp_r2_median": 0.6951053786963841,
+  "true_by_budget": {
+   "4": 12.663400080948682,
+   "16": 13.195914507615734,
+   "64": 27.408337827551474
+  },
+  "u4": {
+   "sp_true_spread": 0.6251992498827942,
+   "sp_true_spread_lvl": 0.639451476793249,
+   "sp_true_level": -0.23077824660103144,
+   "partial_spread|level": 0.6189803560240593,
+   "partial_level|spread": -0.20305816338111587,
+   "partial_spread|level,alpha": 0.7038092162691243,
+   "partial_level|spread,alpha": -0.34022142580351644
+  },
+  "u16": {
+   "sp_true_spread": 0.8136661978434131,
+   "sp_true_spread_lvl": 0.9151664322550399,
+   "sp_true_level": -0.37229254571026726,
+   "partial_spread|level": 0.8353729208463457,
+   "partial_level|spread": -0.47941701550065285,
+   "partial_spread|level,alpha": 0.6015364116260243,
+   "partial_level|spread,alpha": -0.062433959721196045
+  },
+  "u64": {
+   "sp_true_spread": 0.6213080168776371,
+   "sp_true_spread_lvl": 0.7814345991561182,
+   "sp_true_level": -0.5419596812001876,
+   "partial_spread|level": 0.6682121927247835,
+   "partial_level|spread": -0.6027413570913898,
+   "partial_spread|level,alpha": 0.5877239322964033,
+   "partial_level|spread,alpha": 0.11349479594552392
+  }
+ }
+]

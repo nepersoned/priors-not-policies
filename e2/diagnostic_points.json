@@ -1,0 +1,68 @@
+[
+ {
+  "name": "monkey GSM8K_Llama-3-8B-Instruct",
+  "mean_p": 0.7684905511811023,
+  "left": 0.0,
+  "captured": 0.9333408699037915
+ },
+ {
+  "name": "Weaver GSM8K 4o-mini",
+  "mean_p": 0.9306141732283465,
+  "left": 0.0,
+  "captured": 1.023964662927446
+ },
+ {
+  "name": "PRM800K MATH (GPT-4 gen)",
+  "mean_p": 0.48641121333788845,
+  "left": 0.08888888888888889,
+  "captured": 0.6645991232013868
+ },
+ {
+  "name": "monkey MATH_Llama-3-70B-Instruct",
+  "mean_p": 0.47857734375,
+  "left": 0.09375,
+  "captured": 0.7387358940536592
+ },
+ {
+  "name": "monkey MATH_Llama-3-8B-Instruct",
+  "mean_p": 0.26835078125,
+  "left": 0.2578125,
+  "captured": 0.5036934560126094
+ },
+ {
+  "name": "monkey MATH_Gemma-2B",
+  "mean_p": 0.09307890625000001,
+  "left": 0.5078125,
+  "captured": 0.13142518889989152
+ },
+ {
+  "name": "monkey MATH_Pythia-6.9B",
+  "mean_p": 0.01856015625,
+  "left": 0.7578125,
+  "captured": 0.001552402599872504
+ },
+ {
+  "name": "monkey CodeContests_Llama-3-70B-Instruct",
+  "mean_p": 0.07442571428571428,
+  "left": 0.7785714285714286,
+  "captured": 0.022243864433286662
+ },
+ {
+  "name": "monkey MATH_Pythia-1.4B",
+  "mean_p": 0.012602343750000002,
+  "left": 0.8046875,
+  "captured": -0.00018968980035220895
+ },
+ {
+  "name": "monkey CodeContests_Llama-3-8B-Instruct",
+  "mean_p": 0.021199285714285716,
+  "left": 0.9071428571428571,
+  "captured": 0.00590012159416708
+ },
+ {
+  "name": "monkey CodeContests_Gemma-2B",
+  "mean_p": 0.00019857142857142857,
+  "left": 0.9785714285714285,
+  "captured": 0
+ }
+]

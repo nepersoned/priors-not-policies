@@ -1,0 +1,158 @@
+{
+ "MATH_Pythia-1.4B": {
+  "4": {
+   "RR": 0.0484375,
+   "TS (exchangeable)": 0.044140625,
+   "UCB (exchangeable)": 0.0484375,
+   "TS (history)": 0.12734375,
+   "UCB (history)": 0.12890625,
+   "Bayes-myopic (history)": 0.127734375
+  },
+  "16": {
+   "RR": 0.14140625,
+   "TS (exchangeable)": 0.139453125,
+   "UCB (exchangeable)": 0.14140625,
+   "TS (history)": 0.26640625,
+   "UCB (history)": 0.26875,
+   "Bayes-myopic (history)": 0.262890625
+  },
+  "64": {
+   "RR": 0.346875,
+   "TS (exchangeable)": 0.345703125,
+   "UCB (exchangeable)": 0.346875,
+   "TS (history)": 0.4703125,
+   "UCB (history)": 0.469140625,
+   "Bayes-myopic (history)": 0.46484375
+  }
+ },
+ "MATH_Pythia-6.9B": {
+  "4": {
+   "RR": 0.065234375,
+   "TS (exchangeable)": 0.06015625,
+   "UCB (exchangeable)": 0.065234375,
+   "TS (history)": 0.15234375,
+   "UCB (history)": 0.1578125,
+   "Bayes-myopic (history)": 0.1546875
+  },
+  "16": {
+   "RR": 0.186328125,
+   "TS (exchangeable)": 0.1890625,
+   "UCB (exchangeable)": 0.186328125,
+   "TS (history)": 0.323828125,
+   "UCB (history)": 0.327734375,
+   "Bayes-myopic (history)": 0.32265625
+  },
+  "64": {
+   "RR": 0.415625,
+   "TS (exchangeable)": 0.41484375,
+   "UCB (exchangeable)": 0.415625,
+   "TS (history)": 0.53828125,
+   "UCB (history)": 0.55078125,
+   "Bayes-myopic (history)": 0.554296875
+  }
+ },
+ "MATH_Gemma-2B": {
+  "4": {
+   "RR": 0.233984375,
+   "TS (exchangeable)": 0.234765625,
+   "UCB (exchangeable)": 0.233984375,
+   "TS (history)": 0.296875,
+   "UCB (history)": 0.29609375,
+   "Bayes-myopic (history)": 0.2890625
+  },
+  "16": {
+   "RR": 0.48203125,
+   "TS (exchangeable)": 0.483203125,
+   "UCB (exchangeable)": 0.48203125,
+   "TS (history)": 0.509375,
+   "UCB (history)": 0.516015625,
+   "Bayes-myopic (history)": 0.5078125
+  },
+  "64": {
+   "RR": 0.72421875,
+   "TS (exchangeable)": 0.723046875,
+   "UCB (exchangeable)": 0.72421875,
+   "TS (history)": 0.744921875,
+   "UCB (history)": 0.731640625,
+   "Bayes-myopic (history)": 0.697265625
+  }
+ },
+ "CodeContests_Llama-3-8B-Instruct": {
+  "4": {
+   "RR": 0.03321428571428571,
+   "TS (exchangeable)": 0.03321428571428571,
+   "UCB (exchangeable)": 0.03321428571428571,
+   "TS (history)": 0.057857142857142864,
+   "UCB (history)": 0.05857142857142857,
+   "Bayes-myopic (history)": 0.05892857142857143
+  },
+  "16": {
+   "RR": 0.054642857142857146,
+   "TS (exchangeable)": 0.05392857142857144,
+   "UCB (exchangeable)": 0.054642857142857146,
+   "TS (history)": 0.09428571428571428,
+   "UCB (history)": 0.0925,
+   "Bayes-myopic (history)": 0.09178571428571429
+  },
+  "64": {
+   "RR": 0.08607142857142858,
+   "TS (exchangeable)": 0.08678571428571429,
+   "UCB (exchangeable)": 0.08607142857142858,
+   "TS (history)": 0.12392857142857143,
+   "UCB (history)": 0.12392857142857143,
+   "Bayes-myopic (history)": 0.12464285714285714
+  }
+ },
+ "MiniF2F-MATH_Llama-3-8B-Instruct": {
+  "4": {
+   "RR": 0.3288461538461538,
+   "TS (exchangeable)": 0.3249999999999999,
+   "UCB (exchangeable)": 0.3288461538461538,
+   "TS (history)": 0.37,
+   "UCB (history)": 0.3838461538461539,
+   "Bayes-myopic (history)": 0.3738461538461539
+  },
+  "16": {
+   "RR": 0.3996153846153847,
+   "TS (exchangeable)": 0.4015384615384616,
+   "UCB (exchangeable)": 0.3996153846153847,
+   "TS (history)": 0.4207692307692309,
+   "UCB (history)": 0.41653846153846164,
+   "Bayes-myopic (history)": 0.40115384615384614
+  },
+  "64": {
+   "RR": 0.43269230769230776,
+   "TS (exchangeable)": 0.43307692307692314,
+   "UCB (exchangeable)": 0.43269230769230776,
+   "TS (history)": 0.4338461538461539,
+   "UCB (history)": 0.4303846153846155,
+   "Bayes-myopic (history)": 0.42230769230769233
+  }
+ },
+ "MATH_Llama-3-8B-Instruct": {
+  "4": {
+   "RR": 0.53359375,
+   "TS (exchangeable)": 0.53359375,
+   "UCB (exchangeable)": 0.53359375,
+   "TS (history)": 0.59765625,
+   "UCB (history)": 0.617578125,
+   "Bayes-myopic (history)": 0.617578125
+  },
+  "16": {
+   "RR": 0.78203125,
+   "TS (exchangeable)": 0.7828125,
+   "UCB (exchangeable)": 0.78203125,
+   "TS (history)": 0.792578125,
+   "UCB (history)": 0.79140625,
+   "Bayes-myopic (history)": 0.779296875
+  },
+  "64": {
+   "RR": 0.902734375,
+   "TS (exchangeable)": 0.902734375,
+   "UCB (exchangeable)": 0.902734375,
+   "TS (history)": 0.896484375,
+   "UCB (history)": 0.892578125,
+   "Bayes-myopic (history)": 0.882421875
+  }
+ }
+}

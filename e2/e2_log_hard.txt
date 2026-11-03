@@ -1,0 +1,42 @@
+﻿
+== monkey CodeContests_Llama-3-8B-Instruct: N=140 mean acc 0.021 hopeless 0.76 trivial 0.00
+  u=  2 uniform cov 0.028 | oracle: +2.5 | E2 IAS [true p]: +0.0 | E2 linear (1-p) [true p]: +0.0 | E2 exp(-p) [true p]: +0.0 | E2 tiers 21:30:45 [true p]: +0.0
+  u=  4 uniform cov 0.035 | oracle: +3.5 | E2 IAS [true p]: -0.0 | E2 linear (1-p) [true p]: -0.1 | E2 exp(-p) [true p]: -0.1 | E2 tiers 21:30:45 [true p]: +0.0
+  u=  8 uniform cov 0.043 | oracle: +4.3 | E2 IAS [true p]: +0.0 | E2 linear (1-p) [true p]: -0.1 | E2 exp(-p) [true p]: -0.0 | E2 tiers 21:30:45 [true p]: +0.0 | E2 linear (1-p) [probe]: -0.0 | E2 exp(-p) [probe]: -0.0 | E2 tiers 21:30:45 [probe]: +0.0 | E2 IAS [probe]: -0.0 | Bayes marginal [probe]: -0.1
+  u= 16 uniform cov 0.054 | oracle: +4.8 | E2 IAS [true p]: +0.0 | E2 linear (1-p) [true p]: -0.0 | E2 exp(-p) [true p]: -0.0 | E2 tiers 21:30:45 [true p]: +0.0 | E2 linear (1-p) [probe]: -0.0 | E2 exp(-p) [probe]: -0.0 | E2 tiers 21:30:45 [probe]: +0.0 | E2 IAS [probe]: +0.0 | Bayes marginal [probe]: -0.0
+  u= 32 uniform cov 0.068 | oracle: +5.2 | E2 IAS [true p]: +0.0 | E2 linear (1-p) [true p]: -0.0 | E2 exp(-p) [true p]: -0.0 | E2 tiers 21:30:45 [true p]: +0.0 | E2 linear (1-p) [probe]: -0.0 | E2 exp(-p) [probe]: -0.0 | E2 tiers 21:30:45 [probe]: +0.0 | E2 IAS [probe]: -0.2 | Bayes marginal [probe]: -0.1
+
+== monkey CodeContests_Gemma-2B: N=140 mean acc 0.000 hopeless 0.93 trivial 0.00
+  u=  2 uniform cov 0.000 | oracle: +0.5 | E2 IAS [true p]: +0.0 | E2 linear (1-p) [true p]: +0.0 | E2 exp(-p) [true p]: +0.0 | E2 tiers 21:30:45 [true p]: +0.0
+  u=  4 uniform cov 0.001 | oracle: +0.8 | E2 IAS [true p]: +0.0 | E2 linear (1-p) [true p]: +0.0 | E2 exp(-p) [true p]: +0.0 | E2 tiers 21:30:45 [true p]: +0.0
+  u=  8 uniform cov 0.002 | oracle: +1.3 | E2 IAS [true p]: +0.0 | E2 linear (1-p) [true p]: +0.0 | E2 exp(-p) [true p]: +0.0 | E2 tiers 21:30:45 [true p]: +0.0 | E2 linear (1-p) [probe]: -0.0 | E2 exp(-p) [probe]: +0.0 | E2 tiers 21:30:45 [probe]: +0.0 | E2 IAS [probe]: +0.0 | Bayes marginal [probe]: -0.0
+  u= 16 uniform cov 0.003 | oracle: +1.8 | E2 IAS [true p]: +0.0 | E2 linear (1-p) [true p]: +0.0 | E2 exp(-p) [true p]: +0.0 | E2 tiers 21:30:45 [true p]: +0.0 | E2 linear (1-p) [probe]: -0.0 | E2 exp(-p) [probe]: -0.0 | E2 tiers 21:30:45 [probe]: +0.0 | E2 IAS [probe]: +0.0 | Bayes marginal [probe]: -0.0
+  u= 32 uniform cov 0.005 | oracle: +2.2 | E2 IAS [true p]: +0.0 | E2 linear (1-p) [true p]: +0.0 | E2 exp(-p) [true p]: +0.0 | E2 tiers 21:30:45 [true p]: +0.0 | E2 linear (1-p) [probe]: -0.0 | E2 exp(-p) [probe]: -0.0 | E2 tiers 21:30:45 [probe]: -0.0 | E2 IAS [probe]: -0.0 | Bayes marginal [probe]: -0.0
+
+== monkey CodeContests_Llama-3-70B-Instruct: N=140 mean acc 0.074 hopeless 0.62 trivial 0.01
+  u=  2 uniform cov 0.094 | oracle: +4.2 | E2 IAS [true p]: +0.0 | E2 linear (1-p) [true p]: -0.1 | E2 exp(-p) [true p]: +0.0 | E2 tiers 21:30:45 [true p]: +0.0
+  u=  4 uniform cov 0.113 | oracle: +5.6 | E2 IAS [true p]: +0.1 | E2 linear (1-p) [true p]: -0.3 | E2 exp(-p) [true p]: -0.1 | E2 tiers 21:30:45 [true p]: -0.8
+  u=  8 uniform cov 0.135 | oracle: +6.2 | E2 IAS [true p]: +0.1 | E2 linear (1-p) [true p]: -0.2 | E2 exp(-p) [true p]: -0.1 | E2 tiers 21:30:45 [true p]: -0.9 | E2 linear (1-p) [probe]: -0.1 | E2 exp(-p) [probe]: -0.0 | E2 tiers 21:30:45 [probe]: +0.0 | E2 IAS [probe]: +0.0 | Bayes marginal [probe]: -0.2
+  u= 16 uniform cov 0.158 | oracle: +6.0 | E2 IAS [true p]: +0.1 | E2 linear (1-p) [true p]: +0.1 | E2 exp(-p) [true p]: -0.1 | E2 tiers 21:30:45 [true p]: -1.0 | E2 linear (1-p) [probe]: -0.0 | E2 exp(-p) [probe]: -0.0 | E2 tiers 21:30:45 [probe]: -0.0 | E2 IAS [probe]: +0.1 | Bayes marginal [probe]: -0.2
+  u= 32 uniform cov 0.182 | oracle: +5.5 | E2 IAS [true p]: +0.1 | E2 linear (1-p) [true p]: +0.1 | E2 exp(-p) [true p]: +0.0 | E2 tiers 21:30:45 [true p]: -0.8 | E2 linear (1-p) [probe]: +0.1 | E2 exp(-p) [probe]: +0.0 | E2 tiers 21:30:45 [probe]: -0.0 | E2 IAS [probe]: -0.3 | Bayes marginal [probe]: -0.1
+
+== monkey MATH_Pythia-1.4B: N=128 mean acc 0.013 hopeless 0.20 trivial 0.00
+  u=  2 uniform cov 0.024 | oracle: +3.5 | E2 IAS [true p]: +0.0 | E2 linear (1-p) [true p]: +0.0 | E2 exp(-p) [true p]: +0.0 | E2 tiers 21:30:45 [true p]: +0.0
+  u=  4 uniform cov 0.046 | oracle: +5.7 | E2 IAS [true p]: +0.0 | E2 linear (1-p) [true p]: +0.0 | E2 exp(-p) [true p]: +0.0 | E2 tiers 21:30:45 [true p]: -0.9
+  u=  8 uniform cov 0.082 | oracle: +7.4 | E2 IAS [true p]: +0.0 | E2 linear (1-p) [true p]: -0.0 | E2 exp(-p) [true p]: -0.0 | E2 tiers 21:30:45 [true p]: -1.6 | E2 linear (1-p) [probe]: -0.1 | E2 exp(-p) [probe]: -0.0 | E2 tiers 21:30:45 [probe]: +0.0 | E2 IAS [probe]: +0.0 | Bayes marginal [probe]: -0.1
+  u= 16 uniform cov 0.137 | oracle: +8.4 | E2 IAS [true p]: -0.0 | E2 linear (1-p) [true p]: -0.1 | E2 exp(-p) [true p]: -0.1 | E2 tiers 21:30:45 [true p]: -2.9 | E2 linear (1-p) [probe]: -0.1 | E2 exp(-p) [probe]: -0.1 | E2 tiers 21:30:45 [probe]: +0.0 | E2 IAS [probe]: -0.0 | Bayes marginal [probe]: -0.3
+  u= 32 uniform cov 0.212 | oracle: +8.6 | E2 IAS [true p]: +0.0 | E2 linear (1-p) [true p]: -0.1 | E2 exp(-p) [true p]: -0.1 | E2 tiers 21:30:45 [true p]: -3.9 | E2 linear (1-p) [probe]: -0.2 | E2 exp(-p) [probe]: -0.1 | E2 tiers 21:30:45 [probe]: +0.0 | E2 IAS [probe]: -0.6 | Bayes marginal [probe]: -0.5
+
+== monkey MATH_Pythia-6.9B: N=128 mean acc 0.019 hopeless 0.16 trivial 0.00
+  u=  2 uniform cov 0.035 | oracle: +4.2 | E2 IAS [true p]: +0.0 | E2 linear (1-p) [true p]: +0.0 | E2 exp(-p) [true p]: +0.0 | E2 tiers 21:30:45 [true p]: +0.0
+  u=  4 uniform cov 0.065 | oracle: +6.3 | E2 IAS [true p]: +0.0 | E2 linear (1-p) [true p]: +0.0 | E2 exp(-p) [true p]: +0.0 | E2 tiers 21:30:45 [true p]: -1.2
+  u=  8 uniform cov 0.112 | oracle: +7.5 | E2 IAS [true p]: +0.0 | E2 linear (1-p) [true p]: -0.1 | E2 exp(-p) [true p]: -0.1 | E2 tiers 21:30:45 [true p]: -2.0 | E2 linear (1-p) [probe]: -0.2 | E2 exp(-p) [probe]: -0.0 | E2 tiers 21:30:45 [probe]: +0.0 | E2 IAS [probe]: +0.0 | Bayes marginal [probe]: -0.2
+  u= 16 uniform cov 0.179 | oracle: +8.1 | E2 IAS [true p]: +0.0 | E2 linear (1-p) [true p]: -0.2 | E2 exp(-p) [true p]: -0.2 | E2 tiers 21:30:45 [true p]: -3.2 | E2 linear (1-p) [probe]: -0.3 | E2 exp(-p) [probe]: -0.2 | E2 tiers 21:30:45 [probe]: +0.0 | E2 IAS [probe]: -0.1 | Bayes marginal [probe]: -0.5
+  u= 32 uniform cov 0.265 | oracle: +8.2 | E2 IAS [true p]: +0.1 | E2 linear (1-p) [true p]: -0.1 | E2 exp(-p) [true p]: -0.1 | E2 tiers 21:30:45 [true p]: -3.8 | E2 linear (1-p) [probe]: -0.2 | E2 exp(-p) [probe]: -0.1 | E2 tiers 21:30:45 [probe]: -0.0 | E2 IAS [probe]: -0.6 | Bayes marginal [probe]: -0.5
+
+== monkey MATH_Gemma-2B: N=128 mean acc 0.093 hopeless 0.05 trivial 0.00
+  u=  2 uniform cov 0.151 | oracle: +5.4 | E2 IAS [true p]: +0.0 | E2 linear (1-p) [true p]: +0.0 | E2 exp(-p) [true p]: +0.0 | E2 tiers 21:30:45 [true p]: +0.0
+  u=  4 uniform cov 0.224 | oracle: +6.6 | E2 IAS [true p]: +0.0 | E2 linear (1-p) [true p]: -0.8 | E2 exp(-p) [true p]: -0.4 | E2 tiers 21:30:45 [true p]: -2.4
+  u=  8 uniform cov 0.310 | oracle: +7.1 | E2 IAS [true p]: +0.2 | E2 linear (1-p) [true p]: -0.5 | E2 exp(-p) [true p]: -0.4 | E2 tiers 21:30:45 [true p]: -2.8 | E2 linear (1-p) [probe]: -0.3 | E2 exp(-p) [probe]: +0.0 | E2 tiers 21:30:45 [probe]: +0.0 | E2 IAS [probe]: +0.0 | Bayes marginal [probe]: -0.5
+  u= 16 uniform cov 0.407 | oracle: +7.4 | E2 IAS [true p]: +1.0 | E2 linear (1-p) [true p]: +0.5 | E2 exp(-p) [true p]: +0.5 | E2 tiers 21:30:45 [true p]: -2.5 | E2 linear (1-p) [probe]: +0.2 | E2 exp(-p) [probe]: +0.2 | E2 tiers 21:30:45 [probe]: +0.0 | E2 IAS [probe]: +0.3 | Bayes marginal [probe]: -0.1
+  u= 32 uniform cov 0.510 | oracle: +6.9 | E2 IAS [true p]: +1.8 | E2 linear (1-p) [true p]: +0.9 | E2 exp(-p) [true p]: +0.7 | E2 tiers 21:30:45 [true p]: -1.4 | E2 linear (1-p) [probe]: +0.7 | E2 exp(-p) [probe]: +0.5 | E2 tiers 21:30:45 [probe]: +0.0 | E2 IAS [probe]: +0.1 | Bayes marginal [probe]: +0.4

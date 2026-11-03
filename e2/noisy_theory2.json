@@ -1,0 +1,82 @@
+{
+ "threshold": {
+  "MATH_Pythia-1.4B": {
+   "x_star": 0.8791451910273979,
+   "hopeless_share": 0.640625
+  },
+  "MATH_Pythia-6.9B": {
+   "x_star": 0.8400186210151619,
+   "hopeless_share": 0.5546875
+  },
+  "MATH_Gemma-2B": {
+   "x_star": 0.6006097792039845,
+   "hopeless_share": 0.3359375
+  },
+  "CodeContests_Llama-3-8B-Instruct": {
+   "x_star": 0.9528816667173997,
+   "hopeless_share": 0.9142857142857143
+  },
+  "MATH_Llama-3-8B-Instruct": {
+   "x_star": 0.2929881264357517,
+   "hopeless_share": 0.1484375
+  }
+ },
+ "table6": {
+  "MATH500|QwenPRM_min_scores|0.01": {
+   "FA": 0.010016025641025642,
+   "TA": 0.1501721170395869,
+   "pred_ratio": 0.24544506767902244,
+   "oracle_gain_pts": 4.019451335232182,
+   "sim_ratio": 0.4418604651162789
+  },
+  "MATH500|QwenPRM_min_scores|0.05": {
+   "FA": 0.050013354700854704,
+   "TA": 0.5430292598967298,
+   "pred_ratio": 0.6676718726353331,
+   "oracle_gain_pts": 10.933911303814021,
+   "sim_ratio": 0.6744186046511625
+  },
+  "MATH500|InternLM2Reward7B_scores|0.01": {
+   "FA": 0.011752136752136752,
+   "TA": 0.017641996557659207,
+   "pred_ratio": 0.030568792330129817,
+   "oracle_gain_pts": 0.5005998870120173,
+   "sim_ratio": 0.06976744186046509
+  },
+  "MATH500|InternLM2Reward7B_scores|0.05": {
+   "FA": 0.050013354700854704,
+   "TA": 0.07444061962134252,
+   "pred_ratio": 0.11907481687993497,
+   "oracle_gain_pts": 1.9499900170187376,
+   "sim_ratio": 0.37209302325581384
+  },
+  "GPQA|ArmorRM_scores|0.01": {
+   "FA": 0.010026370728491375,
+   "TA": 0.025820656525220177,
+   "pred_ratio": 0.051787883542191694,
+   "oracle_gain_pts": 0.865517893865217,
+   "sim_ratio": 0.05405405405405403
+  },
+  "GPQA|ArmorRM_scores|0.05": {
+   "FA": 0.05002197560707614,
+   "TA": 0.053242594075260205,
+   "pred_ratio": 0.0947748165121916,
+   "oracle_gain_pts": 1.5839477107085298,
+   "sim_ratio": 0.18918918918918912
+  },
+  "GPQA|QwenPRM_min_scores|0.01": {
+   "FA": 0.010026370728491375,
+   "TA": 0.015812650120096076,
+   "pred_ratio": 0.03096809763191486,
+   "oracle_gain_pts": 0.517562039729825,
+   "sim_ratio": 0.027027027027027025
+  },
+  "GPQA|QwenPRM_min_scores|0.05": {
+   "FA": 0.05002197560707614,
+   "TA": 0.03382706164931946,
+   "pred_ratio": 0.06053887698583333,
+   "oracle_gain_pts": 1.0117710499417414,
+   "sim_ratio": 0.018018018018018014
+  }
+ }
+}

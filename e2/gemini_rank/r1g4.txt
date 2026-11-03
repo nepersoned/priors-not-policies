@@ -1,0 +1,51 @@
+You are an expert competition-math coach. Rank the following problems from HARDEST to EASIEST for small open language models (around 1B-7B parameters) answering in a single attempt. Consider the number of reasoning steps, the chance of an arithmetic slip, and how unusual the required idea is. Do not solve them. Output exactly one line: RANKING: followed by all the ids, hardest first, separated by commas.
+
+[id=3619] Evaluate $\sqrt{5625}$.
+
+[id=2155] Let $x,$ $y,$ $z$ be positive real numbers such that $x^2 + y^2 + z^2 = 1.$  Find the maximum value of
+\[xy \sqrt{10} + yz.\]
+
+[id=3665] What is one half of $\dfrac{1}{100}$ of $9000$?
+
+[id=774] Robert is doing his quadratics factoring worksheet when a drop of ink ruins part of his work.
+
+The problem asks him to factor $-35-x+12 x^2$ and he has correctly figured out one of two factors: $(3x + 5).$ What must be the other factor?
+
+[id=2099] Two parallel chords in a circle have lengths 10 and 14, and the distance between them is 6. The chord parallel to these chords and midway between them is of length $\sqrt{a}$. Find the value of $a$. [asy]
+import olympiad; import geometry; size(100); defaultpen(linewidth(0.8));
+draw(unitcircle);
+draw(Label("14",align=N),dir(30)--dir(150));
+draw(Label("10",align=N),dir(-40)--dir(-140));
+draw(Label("$\sqrt{a}$",align=N),dir(-5)--dir(-175));
+distance(rotate(90)*"6",(1,Sin(30)),(1,Sin(-40)),-9,Arrows(size=1));
+
+[/asy]
+
+[id=1235] When Trilisa takes pictures, they turn out with probability $\frac{1}{5}$. She wants to take enough pictures so that the probability of at least one turning out is at least $\frac{3}{4}$. How few pictures can she take to accomplish this?
+
+[id=1342] Ben flips a fair nickel four times. What is the probability that Ben flips Head, Tail, Head, Tail, in that order? Express your answer as a common fraction.
+
+[id=4861] Compute $\sin^3 18^\circ + \sin^2 18^\circ.$
+
+[id=876] What is the slope of a line perpendicular to the line whose equation is $\frac{x}4-\frac{y}5=1$? Express your answer as a common fraction.
+
+[id=3424] Find the value of the base $b$ such that the following addition problem is correct: $$ \begin{array}{@{}c@{\;}c@{}c@{}c@{}c@{}c} & & 6 & 6 & 5 & 1_b \\ + & & & 1 & 1 & 5_b \\ \cline{1-6} & 1 & 0 & 0 & 6 & 6_b\\ \end{array} $$
+
+[id=1115] What is the smallest two-digit positive integer such that the product of its two digits is one-half the integer?
+
+[id=1529] How many 5-digit numbers have at least one 2 or one 3 among their digits?
+
+[id=639] Let $f(x) = 2x - 3$ and $g(f(x)) = 5-4x.$ Find $g(4).$
+
+[id=4907] Find the sum of the values of $x$ such that $\cos^{3}3x+\cos^{3}5x= 8\cos^{3}4x\cos^{3}x$, where $x$ is measured in degrees and $100 ^\circ < x < 200^\circ$.
+
+[id=898] What is the circumference of the circle with center at $P$ and passing through $Q$? Express your answer in terms of $\pi$.
+
+[asy]
+size(150); pair P = (-2,3), Q=(10,-2); string stringpair(pair p){return "$("+string(p.x)+", "+string(p.y)+"$)";}
+draw((-15,0)--(15,0),Arrows(4)); draw((0,-15)--(0,15),Arrows(4));
+dot("$Q$"+stringpair(Q),Q,SE,linewidth(3)); dot("$P$"+stringpair(P),P,NW,linewidth(3));
+
+[/asy]
+
+[id=3970] Calculate $2^{(2^3)} - \left(2^2\right)^3$.

@@ -1,0 +1,20 @@
+weaver MATH500 8B <- 70B                             N= 500 u=  4 | RR  93.5% | E2 online:  -0.0 Bayes-history:  -0.0 Bayes-CV:  +0.0 w=0.52
+weaver MATH500 8B <- 70B                             N= 500 u= 16 | RR  99.2% | E2 online:  +0.0 Bayes-history:  -1.4 Bayes-CV:  -0.0 w=0.00
+weaver MATH500 8B <- 70B                             N= 500 u= 64 | RR  99.2% | E2 online:  +0.0 Bayes-history:  -0.9 Bayes-CV:  -0.0 w=0.00
+weaver MATH500 70B <- 8B                             N= 500 u=  4 | RR  97.9% | E2 online:  +0.0 Bayes-history:  -2.0 Bayes-CV:  -0.3 w=0.24 Bayes-proxy (charged):  -4.2 RR (same charged budget):  -3.5
+weaver MATH500 70B <- 8B                             N= 500 u= 16 | RR  98.6% | E2 online:  +0.0 Bayes-history:  -3.2 Bayes-CV:  +0.0 w=0.00 Bayes-proxy (charged):  -1.8 RR (same charged budget):  +0.0
+weaver MATH500 70B <- 8B                             N= 500 u= 64 | RR  98.6% | E2 online:  +0.0 Bayes-history:  -2.3 Bayes-CV:  +0.0 w=0.00 Bayes-proxy (charged):  -1.0 RR (same charged budget):  +0.0
+weaver GPQA 8B <- 70B                                N= 638 u=  4 | RR  68.5% | E2 online:  +0.0 Bayes-history:  +0.4 Bayes-CV:  +0.4 w=0.49
+weaver GPQA 8B <- 70B                                N= 638 u= 16 | RR  95.1% | E2 online:  +0.0 Bayes-history:  -4.9 Bayes-CV:  +0.0 w=0.01
+weaver GPQA 8B <- 70B                                N= 638 u= 64 | RR  95.1% | E2 online:  +0.0 Bayes-history:  -2.5 Bayes-CV:  +0.0 w=0.00
+weaver GPQA 70B <- 8B                                N= 638 u=  4 | RR  65.8% | E2 online:  +0.0 Bayes-history:  -0.0 Bayes-CV:  +0.0 w=0.42 Bayes-proxy (charged):  -8.1 RR (same charged budget):  -8.3
+weaver GPQA 70B <- 8B                                N= 638 u= 16 | RR  77.5% | E2 online:  -0.1 Bayes-history:  +0.1 Bayes-CV:  +0.1 w=0.47 Bayes-proxy (charged):  -1.0 RR (same charged budget):  -0.8
+weaver GPQA 70B <- 8B                                N= 638 u= 64 | RR  80.7% | E2 online:  +0.0 Bayes-history:  +0.0 Bayes-CV:  +0.0 w=0.00 Bayes-proxy (charged):  +0.0 RR (same charged budget):  +0.0
+SKIP weaver MMLU 8B <- 70B: only 0 aligned problems
+SKIP weaver MMLU 70B <- 8B: only 0 aligned problems
+weaver MMLU-Pro 8B <- 70B                            N= 500 u=  4 | RR  83.2% | E2 online:  +0.1 Bayes-history:  -2.2 Bayes-CV:  -1.5 w=0.50
+weaver MMLU-Pro 8B <- 70B                            N= 500 u= 16 | RR  96.8% | E2 online:  +0.0 Bayes-history:  -6.7 Bayes-CV:  +0.0 w=0.00
+weaver MMLU-Pro 8B <- 70B                            N= 500 u= 64 | RR  96.8% | E2 online:  +0.0 Bayes-history:  -2.3 Bayes-CV:  +0.0 w=0.00
+weaver MMLU-Pro 70B <- 8B                            N= 500 u=  4 | RR  87.4% | E2 online:  -0.2 Bayes-history:  -0.1 Bayes-CV:  -0.0 w=0.57 Bayes-proxy (charged):  -4.2 RR (same charged budget):  -4.2
+weaver MMLU-Pro 70B <- 8B                            N= 500 u= 16 | RR  92.0% | E2 online:  +0.0 Bayes-history:  -1.6 Bayes-CV:  +0.0 w=0.00 Bayes-proxy (charged):  -2.2 RR (same charged budget):  +0.0
+weaver MMLU-Pro 70B <- 8B                            N= 500 u= 64 | RR  92.0% | E2 online:  +0.0 Bayes-history:  -1.9 Bayes-CV:  +0.0 w=0.00 Bayes-proxy (charged):  -2.0 RR (same charged budget):  +0.0

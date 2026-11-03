@@ -1,0 +1,99 @@
+You are an expert competition-math coach. Rank the following problems from HARDEST to EASIEST for small open language models (around 1B-7B parameters) answering in a single attempt. Consider the number of reasoning steps, the chance of an arithmetic slip, and how unusual the required idea is. Do not solve them. Output exactly one line: RANKING: followed by all the ids, hardest first, separated by commas.
+
+[id=1342] Ben flips a fair nickel four times. What is the probability that Ben flips Head, Tail, Head, Tail, in that order? Express your answer as a common fraction.
+
+[id=639] Let $f(x) = 2x - 3$ and $g(f(x)) = 5-4x.$ Find $g(4).$
+
+[id=1003] What is the domain of the function $$f(x) = \frac{(2x-3)(2x+5)}{(3x-9)(3x+6)}~?$$ Express your answer as an interval or as a union of intervals.
+
+[id=1147] Given x = 3 and y = 2, find the value of the expression $\frac{4x^2}{9y^2}$
+
+[id=2034] In triangle $ABC$, $\angle BAC = 72^\circ$.  The incircle of triangle $ABC$ touches sides $BC$, $AC$, and $AB$ at $D$, $E$, and $F$, respectively.  Find $\angle EDF$, in degrees.
+
+[asy]
+import geometry;
+
+unitsize(2 cm);
+
+pair A, B, C, D, E, F, I;
+
+A = (1,2);
+B = (0,0);
+C = (3,0);
+I = incenter(A,B,C);
+D = (I + reflect(B,C)*(I))/2;
+E = (I + reflect(C,A)*(I))/2;
+F = (I + reflect(A,B)*(I))/2;
+
+draw(A--B--C--cycle);
+draw(incircle(A,B,C));
+draw(F--D--E);
+
+label("$A$", A, N);
+label("$B$", B, SW);
+label("$C$", C, SE);
+label("$D$", D, S);
+label("$E$", E, NE);
+label("$F$", F, NW);
+[/asy]
+
+[id=2322] Let $a,$ $b,$ $c,$ $d,$ and $e$ be the distinct roots of the equation $x^5 + 7x^4 - 2 = 0.$  Find
+\begin{align*}
+&\frac{a^3}{(a - b)(a - c)(a - d)(a - e)} + \frac{b^3}{(b - a)(b - c)(b - d)(b - e)} \\
+&\quad + \frac{c^3}{(c - a)(c - b)(c - d)(c - e)} + \frac{d^3}{(d - a)(d - b)(d - c)(d - e)} \\
+&\quad + \frac{e^3}{(e - a)(e - b)(e - c)(e - d)}.
+\end{align*}
+
+[id=1076] The two lines $y = 2x - 13$ and $3x+y = 92$ intersect. What is the value of $x$ at the point of intersection?
+
+[id=621] The positive difference between two consecutive perfect squares is 35. What is the greater of the two squares?
+
+[id=2709] The function $f(x)$ satisfies
+\[f(f(x)) = 6x - 2005\]for all real numbers $x.$  There exists an integer $n$ such that $f(n) = 6n - 2005.$  Find $n.$
+
+[id=3885] In a class of $30$ students, exactly $7$ have been to Mexico and exactly $11$ have been to England. Of these $30$ students, $4$ have been to both Mexico and England. How many students in this class have not been to Mexico or England?
+
+[id=2323] An equilateral triangle is inscribed in the parabola $x^2 = 8y,$ such that one of the vertices of the triangle coincides with the vertex of the parabola.  Find the side length of this equilateral triangle.
+
+[id=732] What is the value of $b+c$ if $x^2+bx+c>0$ only when $x\in (-\infty, -2)\cup(3,\infty)$?
+
+[id=974] How many real numbers are not in the domain of the function $$f(x) = \frac{1}{x-64} + \frac{1}{x^2-64} + \frac{1}{x^3-64}~?$$
+
+[id=2425] The ellipse \[\frac{(x-6)^2}{25} + \frac{(y-3)^2}{9} = 1\]has two foci. Find the one with the larger $x$-coordinate. Enter your answer as an ordered pair, like "(2, 1)".
+
+[id=4228] Two shaded quarter-circles, each with a radius of 4 units, are formed in the 4 by 8 rectangular region shown. What is the area of the non-shaded region, in square units? Express the area in the form $a-b\pi$ where $a$ and $b$ are integers.
+
+[asy]
+
+size(4cm,4cm);
+
+pair A,B,C,D,a,b,X;
+
+A=(0,0);
+B=(8,0);
+C=(8,4);
+D=(0,4);
+
+X=(4,4);
+
+draw(A--B--C--D--A);
+
+a=(3,1.5);
+
+fill((A..a..X--D--A--cycle),gray);
+
+draw(A..a..X);
+
+b=(5,1.5);
+
+fill((B..b..X--C--B--cycle),gray);
+
+draw(B..b..X);
+
+label("$8$",midpoint(A--B),S);
+label("$4$",midpoint(B--C),E);
+
+[/asy]
+
+[id=2652] For a real number $x,$ let
+\[f(x) = \max \{|x + 15|, |x + 12|, |x + 8|, |x - 1|, |x - 3|, |x - 19|\}.\]Find the minimum value of $f(x).$

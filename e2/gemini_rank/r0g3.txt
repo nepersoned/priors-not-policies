@@ -1,0 +1,45 @@
+You are an expert competition-math coach. Rank the following problems from HARDEST to EASIEST for small open language models (around 1B-7B parameters) answering in a single attempt. Consider the number of reasoning steps, the chance of an arithmetic slip, and how unusual the required idea is. Do not solve them. Output exactly one line: RANKING: followed by all the ids, hardest first, separated by commas.
+
+[id=3763] Newton High School is selling bag lunches for a field trip.  The price of $3$ lunches is given to be $\$4.50$. Tyler wants to know if he can afford to buy himself and $4$ of his friends lunch.  If the price of each lunch is fixed, how much money does Tyler need?
+
+[id=1235] When Trilisa takes pictures, they turn out with probability $\frac{1}{5}$. She wants to take enough pictures so that the probability of at least one turning out is at least $\frac{3}{4}$. How few pictures can she take to accomplish this?
+
+[id=1935] The area of $\triangle ABC$ is 6 square centimeters. $\overline{AB}\|\overline{DE}$. $BD=4BC$. What is the number of square centimeters in the area of $\triangle CDE$? [asy]
+draw((-.3,-3)--(.1,1)--(-1,0)--(3,0)--cycle);
+label("$A$",(.1,1),N);
+label("$B$",(-1,0),W);
+label("$C$",(0,0),NE);
+label("$D$",(3,0),E);
+label("$E$",(-.3,-3),S);
+[/asy]
+
+[id=2425] The ellipse \[\frac{(x-6)^2}{25} + \frac{(y-3)^2}{9} = 1\]has two foci. Find the one with the larger $x$-coordinate. Enter your answer as an ordered pair, like "(2, 1)".
+
+[id=2350] Compute
+\[\sum_{k = 1}^\infty \frac{k + 2}{k! + (k + 1)! + (k + 2)!}.\]
+
+[id=3371] If March 1 is a Monday, what day of the week will it be 270 days later?
+
+[id=2024] Points $A, B, C$ and $D$ have these coordinates: $A(3,2)$, $B(3,-2)$, $C(-3,-2)$ and $D(-3,0)$. What is the area of quadrilateral $ABCD$?
+
+[id=876] What is the slope of a line perpendicular to the line whose equation is $\frac{x}4-\frac{y}5=1$? Express your answer as a common fraction.
+
+[id=1342] Ben flips a fair nickel four times. What is the probability that Ben flips Head, Tail, Head, Tail, in that order? Express your answer as a common fraction.
+
+[id=3619] Evaluate $\sqrt{5625}$.
+
+[id=188] A ball travels on a parabolic path in which the height (in feet) is given by the expression $-25t^2+75t+24$, where $t$ is the time after launch. At what time is the height of the ball at its maximum?
+
+[id=4051] How many different combinations of $\$5$ bills and $\$2$ bills can be used to make a total of $\$17$?  Order does not matter in this problem.
+
+[id=283] The sum of three numbers $a, b$ and $c$ is 88. If we decrease $a$ by 5, we get $N$. If we increase $b$ by 5, we get $N$. If we multiply $c$ by 5, we get $N$. What is the value of $N$?
+
+[id=3539] If $$1+12+123+1234+12345+123456+1234567+12345678$$is congruent to $n$ modulo 9, where $0\le n<9$, what is the value of $n$?
+
+[id=1321] Link is coloring a triforce, which consists of four equilateral triangles and is depicted below. He has three colors to use: gold, black, and green. So that it remains recognizable, he doesn't want to color any two triangles the same color if they share a side. How many different ways can he color the triforce? (Two colorings that differ by rotation are considered distinct.) [asy]
+size(50);
+draw((0,0)--(2,0)--(1,1.732)--cycle);
+draw((1,0)--(1.5,.866)--(.5,.866)--cycle);
+[/asy]
+
+[id=2153] The function $f(n)$ satisfies $f(1) = 1$ and $f(2n + 1) = f(n) + 1$ for $n \ge 0.$  Find $f(15).$

@@ -1,0 +1,22 @@
+{
+ "Pythia-1.4B": {
+  "n": 128,
+  "fewshot": 0.3988058502997592,
+  "zeroshot_same_items": 0.3675040779260376
+ },
+ "Pythia-6.9B": {
+  "n": 128,
+  "fewshot": 0.39569158933862697,
+  "zeroshot_same_items": 0.36049044699249927
+ },
+ "Gemma-2B": {
+  "n": 128,
+  "fewshot": 0.5827255883842357,
+  "zeroshot_same_items": 0.5762525130280779
+ },
+ "Llama-3-8B-Instruct": {
+  "n": 128,
+  "fewshot": 0.6841731790453696,
+  "zeroshot_same_items": 0.6880476174949903
+ }
+}

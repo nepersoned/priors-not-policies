@@ -1,0 +1,45 @@
+You are an expert competition-math coach. Rank the following problems from HARDEST to EASIEST for small open language models (around 1B-7B parameters) answering in a single attempt. Consider the number of reasoning steps, the chance of an arithmetic slip, and how unusual the required idea is. Do not solve them. Output exactly one line: RANKING: followed by all the ids, hardest first, separated by commas.
+
+[id=2166] A polynomial with integer coefficients is of the form
+\[x^4 + a_3 x^3 + a_2 x^2 + a_1 x + 4 = 0.\]Enter all the possible integer roots of this polynomial, separated by commas.
+
+[id=3666] In the prime factorization of $109!$, what is the exponent of $3$?  (Reminder: The number $n!$ is the product of the integers from 1 to $n$.  For example, $5!=5\cdot 4\cdot3\cdot2\cdot 1= 120$.)
+
+[id=1342] Ben flips a fair nickel four times. What is the probability that Ben flips Head, Tail, Head, Tail, in that order? Express your answer as a common fraction.
+
+[id=2155] Let $x,$ $y,$ $z$ be positive real numbers such that $x^2 + y^2 + z^2 = 1.$  Find the maximum value of
+\[xy \sqrt{10} + yz.\]
+
+[id=1935] The area of $\triangle ABC$ is 6 square centimeters. $\overline{AB}\|\overline{DE}$. $BD=4BC$. What is the number of square centimeters in the area of $\triangle CDE$? [asy]
+draw((-.3,-3)--(.1,1)--(-1,0)--(3,0)--cycle);
+label("$A$",(.1,1),N);
+label("$B$",(-1,0),W);
+label("$C$",(0,0),NE);
+label("$D$",(3,0),E);
+label("$E$",(-.3,-3),S);
+[/asy]
+
+[id=302] Suppose $\frac ab = \frac35$,$\frac bc=\frac{15}6$, and $\frac cd = 6$. What is the value of $\frac ad$? Express your answer in simplest form.
+
+[id=3394] Alice, Bailey, Cindy, and Daniel walked around their neighborhoods selling pens. Alice earned $\$25.67$, Bailey earned $\$17.21$, Cindy earned $\$39.17$, and Daniel earned $\$26.32$. After the sale, they pooled their money together and went to the bank to convert the coins into dollars. How many cents in change did they have left after they converted as many of the coins into bills as they could?
+
+[id=2148] Solve
+\[\sqrt{x + \sqrt{3x + 6}} + \sqrt{x - \sqrt{3x + 6}} = 6.\]
+
+[id=2652] For a real number $x,$ let
+\[f(x) = \max \{|x + 15|, |x + 12|, |x + 8|, |x - 1|, |x - 3|, |x - 19|\}.\]Find the minimum value of $f(x).$
+
+[id=2418] Find the number of ordered triples $(x,y,z)$ of positive real numbers such that
+\[\left( x + \frac{1}{y} \right) \left( y + \frac{1}{z} \right) \left( z + \frac{1}{x} \right) = 8.\]
+
+[id=1716] A star-polygon is drawn on a clock face by drawing a chord from each number to the fifth number counted clockwise from that number.  That is, chords are drawn from 12 to 5, from 5 to 10, from 10 to 3, and so on, ending back at 12.  What is the degree measure of the angle at each vertex in the star-polygon?
+
+[id=1433] Adam rolled two standard six-sided dice once.  What is the probability that he did not roll a prime number on either die? Express your answer as a common fraction.
+
+[id=4207] What is the 20th digit in the decimal expansion for the sum of $\frac{2}{9}$ and $\frac{1}{7}$?
+
+[id=1529] How many 5-digit numbers have at least one 2 or one 3 among their digits?
+
+[id=188] A ball travels on a parabolic path in which the height (in feet) is given by the expression $-25t^2+75t+24$, where $t$ is the time after launch. At what time is the height of the ball at its maximum?
+
+[id=3970] Calculate $2^{(2^3)} - \left(2^2\right)^3$.

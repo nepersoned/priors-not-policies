@@ -1,0 +1,47 @@
+You are an expert competition-math coach. Rank the following problems from HARDEST to EASIEST for small open language models (around 1B-7B parameters) answering in a single attempt. Consider the number of reasoning steps, the chance of an arithmetic slip, and how unusual the required idea is. Do not solve them. Output exactly one line: RANKING: followed by all the ids, hardest first, separated by commas.
+
+[id=751] The integers 2 through 9 are each placed in the figure with one integer in each of the eight smallest triangles. The integers are placed so that the pairs of integers in each of the four smallest squares have the same sum. What is that sum?
+
+[asy]
+size(101);
+draw(unitsquare);
+draw(shift(up)*shift(right)*unitsquare);
+filldraw(shift(up)*unitsquare,gray(.6));
+filldraw(shift(right)*unitsquare,gray(.6));
+draw((0,0)--(2,2)^^(0,2)--(2,0));
+[/asy]
+
+[id=3888] Annie's soccer team is conducting a passing drill in which each of the 11 members of the soccer team must pass the ball to each of the other members exactly three times. How many times must the ball be passed before the passing drill is over?
+
+[id=4975] In triangle $ABC,$
+\[\tan \left( \frac{B - C}{2} \right) \tan \frac{A}{2} = \frac{1}{29} \quad \text{and} \quad \tan \left( \frac{C - A}{2} \right) \tan \frac{B}{2} = \frac{1}{27}.\]Find $\tan \left( \frac{A - B}{2} \right) \tan \frac{C}{2}.$
+
+[id=456] The graph of the equation $y=ax^2+bx-6$ is completely below the $x$-axis. If $a^2=49$, what is the largest possible integral value of $b$?
+
+[id=2188] Find all real values of $a$ for which the quadratic equation
+\[(3 - i) x^2 + (a + 4i) x - 115 + 5i = 0\]has at least one real root.
+
+Enter all the possible values of $a,$ separated by commas.
+
+[id=588] Evaluate $\dfrac{7}{45^2 - 38^2}$.
+
+[id=142] Solve for $a$: $\dfrac{8^{-1}}{4^{-1}}-a^{-1}=1$.
+
+[id=1484] Three cards are dealt at random from a standard deck (13 clubs, 13 diamonds, 13 hearts, and 13 spades) of 52 cards.  What is the probability that all three cards are $\heartsuit$s?
+
+[id=4895] There exist vectors $\mathbf{a}$ and $\mathbf{b}$ such that
+\[\mathbf{a} + \mathbf{b} = \begin{pmatrix} 4 \\ 7 \end{pmatrix},\]where $\mathbf{a}$ is parallel to $\begin{pmatrix} 1 \\ 2 \end{pmatrix},$ and $\mathbf{b}$ is orthogonal to $\begin{pmatrix} 1 \\ 2 \end{pmatrix}.$  Find $\mathbf{b}.$
+
+[id=1115] What is the smallest two-digit positive integer such that the product of its two digits is one-half the integer?
+
+[id=3620] The first round of the 2010 FIFA World Cup consisted of several groups of four teams each. Within each group, each of the four teams played each other once. How many matches were there in each group?
+
+[id=201] If $j$ and $k$ are inversely proportional and $j = 42$ when $k = 56$, what is the value of $j$ when $k = 32$? Express your answer as a decimal rounded to the nearest tenth.
+
+[id=3619] Evaluate $\sqrt{5625}$.
+
+[id=1305] What is the probability that if you roll two fair, standard six-sided dice, the difference between the two numbers rolled will be 0? Express your answer as a common fraction.
+
+[id=1859] What is the area in square units of the convex quadrilateral with vertices $(-1, 0)$, $(0, 1)$, $(2, 0)$ and $(0, -3)$?
+
+[id=3371] If March 1 is a Monday, what day of the week will it be 270 days later?

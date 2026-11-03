@@ -1,0 +1,58 @@
+You are an expert competition-math coach. Rank the following problems from HARDEST to EASIEST for small open language models (around 1B-7B parameters) answering in a single attempt. Consider the number of reasoning steps, the chance of an arithmetic slip, and how unusual the required idea is. Do not solve them. Output exactly one line: RANKING: followed by all the ids, hardest first, separated by commas.
+
+[id=588] Evaluate $\dfrac{7}{45^2 - 38^2}$.
+
+[id=3620] The first round of the 2010 FIFA World Cup consisted of several groups of four teams each. Within each group, each of the four teams played each other once. How many matches were there in each group?
+
+[id=836] What is the discriminant of $2x^2 - 8x + 15$?
+
+[id=2166] A polynomial with integer coefficients is of the form
+\[x^4 + a_3 x^3 + a_2 x^2 + a_1 x + 4 = 0.\]Enter all the possible integer roots of this polynomial, separated by commas.
+
+[id=704] Consider the infinite arithmetic sequence $A$ with first term $5$ and common difference $-2$. Now define the infinite sequence $B$ so that the $k^{th}$ term of $B$ is $2$ raised to the $k^{th}$ term of $A$. Find the sum of all of the terms of $B$.
+
+[id=4258] I am going to buy exotic fruits.  Dragonfruit costs $x-4$ dollars.  Starfruit is five dollars less expensive than rambutan.  Rambutan costs $2x$ dollars more than dragonfruit.  How much does it cost to buy one rambutan, two starfruit, and three dragonfruit? Your answer will be an expression that depends on $x$.
+
+[id=1680] Coplanar squares $ABGH$ and $BCDF$ are adjacent, with $CD = 10$ units and $AH = 5$ units. Point $E$ is on segments $AD$ and $GB$. What is the area of triangle $ABE$, in square units? Express your answer as a common fraction.
+
+[asy]
+draw((0,0)--(5,0)--(5,5)--(0,5)--(0,0)--cycle,linewidth(2));
+draw((5,0)--(15,0)--(15,10)--(5,10)--(5,0)--cycle,linewidth(2));
+
+draw((0,0)--(15,10),linewidth(2));
+
+filldraw((0,0)--(5,0)--(5,10/3)--(0,0)--cycle,gray,linewidth(2));
+
+label("A",(0,0),SW);
+label("B",(5,0),S);
+label("C",(15,0),SE);
+label("D",(15,10),NE);
+label("E",(5,10/3),SE);
+label("F",(5,10),NW);
+label("G",(5,5),NW);
+label("H",(0,5),NW);
+[/asy]
+
+[id=4895] There exist vectors $\mathbf{a}$ and $\mathbf{b}$ such that
+\[\mathbf{a} + \mathbf{b} = \begin{pmatrix} 4 \\ 7 \end{pmatrix},\]where $\mathbf{a}$ is parallel to $\begin{pmatrix} 1 \\ 2 \end{pmatrix},$ and $\mathbf{b}$ is orthogonal to $\begin{pmatrix} 1 \\ 2 \end{pmatrix}.$  Find $\mathbf{b}.$
+
+[id=4988] Let $\mathbf{a}$ and $\mathbf{b}$ be orthogonal vectors.  If $\operatorname{proj}_{\mathbf{a}} \begin{pmatrix} 0 \\ 13 \end{pmatrix} = \begin{pmatrix} 6 \\ 4 \end{pmatrix},$ then find $\operatorname{proj}_{\mathbf{b}} \begin{pmatrix} 0 \\ 13 \end{pmatrix}.$
+
+[id=2738] Find the sum of all real numbers $x$ such that $5x^4-10x^3+10x^2-5x-11=0$.
+
+[id=1170] If \begin{align*}
+4x-y+2z&=7,\\
+6x+3y+3z&=5,
+\end{align*} compute $y$.
+
+[id=2148] Solve
+\[\sqrt{x + \sqrt{3x + 6}} + \sqrt{x - \sqrt{3x + 6}} = 6.\]
+
+[id=4091] Simplify the expression $\sqrt{7!}$, where $n!$ stands for $n\cdot(n-1)\cdot(n-2)\cdots \cdot 2\cdot 1$.
+
+[id=3888] Annie's soccer team is conducting a passing drill in which each of the 11 members of the soccer team must pass the ball to each of the other members exactly three times. How many times must the ball be passed before the passing drill is over?
+
+[id=2350] Compute
+\[\sum_{k = 1}^\infty \frac{k + 2}{k! + (k + 1)! + (k + 2)!}.\]
+
+[id=1563] For how many integers $n$ where $2 \le n \le 100$ is $\binom{n}{2}$ odd?

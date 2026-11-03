@@ -1,0 +1,58 @@
+{
+ "MATH_Pythia-1.4B": {
+  "stats": {
+   "mean_len": 606.038271875,
+   "mean_len_correct": 348.6785072221189,
+   "mean_len_wrong": 609.3230034125372,
+   "spearman_len_vs_p": -0.267216208886723
+  },
+  "token_budget": {
+   "RR": 0.144140625,
+   "TS (history)": 0.276171875,
+   "gain": 0.13203125000000002,
+   "gain_sd": 0.024569039364869358
+  }
+ },
+ "MATH_Pythia-6.9B": {
+  "stats": {
+   "mean_len": 643.8678140625,
+   "mean_len_correct": 453.9932651429053,
+   "mean_len_wrong": 647.4585601671014,
+   "spearman_len_vs_p": -0.1777993979522614
+  },
+  "token_budget": {
+   "RR": 0.20234375,
+   "TS (history)": 0.347265625,
+   "gain": 0.14492187500000003,
+   "gain_sd": 0.029592260885185424
+  }
+ },
+ "MATH_Gemma-2B": {
+  "stats": {
+   "mean_len": 550.61315859375,
+   "mean_len_correct": 322.64259994460343,
+   "mean_len_wrong": 574.0101778079853,
+   "spearman_len_vs_p": -0.46515747103754757
+  },
+  "token_budget": {
+   "RR": 0.44765625,
+   "TS (history)": 0.498828125,
+   "gain": 0.05117187500000003,
+   "gain_sd": 0.024013113889537002
+  }
+ },
+ "CodeContests_Llama-3-8B-Instruct": {
+  "stats": {
+   "mean_len": 439.60934142857144,
+   "mean_len_correct": 299.064928063614,
+   "mean_len_wrong": 442.6533126179924,
+   "spearman_len_vs_p": -0.17207082925658343
+  },
+  "token_budget": {
+   "RR": 0.06,
+   "TS (history)": 0.09607142857142856,
+   "gain": 0.03607142857142856,
+   "gain_sd": 0.014010746604237878
+  }
+ }
+}

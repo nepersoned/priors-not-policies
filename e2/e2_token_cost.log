@@ -1,0 +1,4 @@
+﻿MATH_Pythia-1.4B {"mean_len": 606.038271875, "mean_len_correct": 348.6785072221189, "mean_len_wrong": 609.3230034125372, "spearman_len_vs_p": -0.267216208886723} | RR 14.4% TS-hist +13.2 (sd 2.5)
+MATH_Pythia-6.9B {"mean_len": 643.8678140625, "mean_len_correct": 453.9932651429053, "mean_len_wrong": 647.4585601671014, "spearman_len_vs_p": -0.1777993979522614} | RR 20.2% TS-hist +14.5 (sd 3.0)
+MATH_Gemma-2B {"mean_len": 550.61315859375, "mean_len_correct": 322.64259994460343, "mean_len_wrong": 574.0101778079853, "spearman_len_vs_p": -0.46515747103754757} | RR 44.8% TS-hist +5.1 (sd 2.4)
+CodeContests_Llama-3-8B-Instruct {"mean_len": 439.60934142857144, "mean_len_correct": 299.064928063614, "mean_len_wrong": 442.6533126179924, "spearman_len_vs_p": -0.17207082925658343} | RR 6.0% TS-hist +3.6 (sd 1.4)

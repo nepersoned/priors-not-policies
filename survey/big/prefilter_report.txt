@@ -1,0 +1,6 @@
+raw 4029
+unique 3016
+with abstract 2817
+prefilter pass 1269
+  strong (mentions per-input/difficulty/allocation) 610
+by year {2026: 607, 2025: 590, 2024: 56, 2023: 8, None: 6, 2022: 2}

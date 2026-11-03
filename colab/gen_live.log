@@ -1,0 +1,243 @@
+
+[colab] A new version of Colab CLI is available: 0.7.4 (current: 0.6.0)
+[colab] Run 'colab update' to update.
+[colab] To silence this check, set "enable_update_check": false in ~/.config/colab-cli/settings.json
+
+/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_auth.py:138: UserWarning: 
+Error while fetching `HF_TOKEN` secret value from your vault: 'Requesting secret HF_TOKEN timed out. Secrets can only be fetched when running from the Colab UI.'.
+  warnings.warn(f"\nError while fetching `HF_TOKEN` secret value from your vault: '{str(e)}'.")
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+README.md:   0%|          | 0.00/412 [00:00<?, ?B/s]
+test.jsonl:   0%|          | 0.00/447k [00:00<?, ?B/s]
+Generating test split:   0%|          | 0/500 [00:00<?, ? examples/s]
+problems 200
+(MainProcess pid=3445) INFO 10-08 03:06:41 [api_utils.py:286] non-default args: {'max_model_len': 4096, 'gpu_memory_utilization': 0.85, 'disable_log_stats': True, 'model': 'Qwen/Qwen2.5-0.5B-Instruct'}
+config.json:   0%|          | 0.00/659 [00:00<?, ?B/s]
+(MainProcess pid=3445) INFO 10-08 03:06:57 [model.py:699] Resolved architecture: Qwen2ForCausalLM
+(MainProcess pid=3445) INFO 10-08 03:06:57 [model.py:2109] Using max model len 4096
+(MainProcess pid=3445) INFO 10-08 03:06:57 [scheduler.py:308] Chunked prefill is enabled with max_num_batched_tokens=8192.
+(MainProcess pid=3445) INFO 10-08 03:06:57 [kernel.py:408] Final IR op priority after setting platform defaults: IrOpPriorityConfig(rms_norm=['native'], fused_add_rms_norm=['native'], gelu_and_mul_sparse=['triton', 'native'])
+tokenizer_config.json:   0%|          | 0.00/7.30k [00:00<?, ?B/s]
+vocab.json:   0%|          | 0.00/2.78M [00:00<?, ?B/s]
+merges.txt:   0%|          | 0.00/1.67M [00:00<?, ?B/s]
+tokenizer.json:   0%|          | 0.00/7.03M [00:00<?, ?B/s]
+generation_config.json:   0%|          | 0.00/242 [00:00<?, ?B/s]
+(EngineCore pid=5213) INFO 10-08 03:07:02 [core.py:129] Initializing a V1 LLM engine (v0.31.0) with config: model='Qwen/Qwen2.5-0.5B-Instruct', speculative_config=None, tokenizer='Qwen/Qwen2.5-0.5B-Instruct', skip_tokenizer_init=False, tokenizer_mode=auto, revision=main, tokenizer_revision=main, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=4096, download_dir=None, load_format=auto, tensor_parallel_size=1, pipeline_parallel_size=1, data_parallel_size=1, decode_context_parallel_size=1, dcp_comm_backend=ag_rs, disable_custom_all_reduce=False, quantization=None, quantization_config=None, enforce_eager=False, aux_output_config=AuxOutputConfig(enable_return_routed_experts=False, max_bytes=None), kv_cache_dtype=auto, device_config=cuda, structured_outputs_config=StructuredOutputsConfig(backend='auto', disable_any_whitespace=False, disable_additional_properties=False, reasoning_parser='', reasoning_parser_plugin='', enable_in_reasoning=False), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None, per_request_spec_decode_metrics='none', kv_cache_metrics=False, kv_cache_metrics_sample=0.01, cudagraph_metrics=False, enable_layerwise_nvtx_tracing=False, enable_mfu_metrics=False, enable_mm_processor_stats=False, enable_logging_iteration_details=False, jit_monitor_mode='warn', jit_monitor_verbose=False), seed=0, served_model_name=Qwen/Qwen2.5-0.5B-Instruct, enable_prefix_caching=True, enable_chunked_prefill=True, pooler_config=None, compilation_config={'mode': <CompilationMode.VLLM_COMPILE: 3>, 'debug_dump_path': None, 'cache_dir': '', 'compile_cache_save_format': 'binary', 'backend': 'inductor', 'custom_ops': ['none'], 'ir_enable_torch_wrap': True, 'splitting_ops': ['vllm::unified_attention_with_output', 'vllm::unified_mla_attention_with_output', 'vllm::mamba_mixer2', 'vllm::mamba_mixer', 'vllm::short_conv', 'vllm::qwen4_exp_ple_short_conv', 'vllm::qwen4_exp_qsa_with_output', 'vllm::linear_attention', 'vllm::qwen_gdn_attention_core', 'vllm::qwen_gdn_attention_core_fused_norm_packed', 'vllm::gdn_attention_core_xpu', 'vllm::olmo_hybrid_gdn_full_forward', 'vllm::sparse_attn_indexer', 'vllm::rocm_aiter_sparse_attn_indexer', 'vllm::deepseek_v4_attention', 'vllm::hpc_rope_norm_forward', 'vllm::unified_kv_cache_update', 'vllm::unified_mla_kv_cache_update'], 'compile_mm_encoder': False, 'cudagraph_mm_encoder': False, 'encoder_cudagraph_token_budgets': [], 'encoder_cudagraph_max_vision_items_per_batch': 0, 'encoder_cudagraph_max_frames_per_batch': None, 'compile_sizes': [], 'compile_ranges_endpoints': [8192], 'inductor_compile_config': {'enable_auto_functionalized_v2': False, 'combo_kernels': True, 'benchmark_combo_kernel': True}, 'inductor_passes': {}, 'cudagraph_mode': <CUDAGraphMode.FULL_AND_PIECEWISE: (2, 1)>, 'cudagraph_num_of_warmups': 1, 'cudagraph_capture_sizes': [1, 2, 4, 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 88, 96, 104, 112, 120, 128, 136, 144, 152, 160, 168, 176, 184, 192, 200, 208, 216, 224, 232, 240, 248, 256, 272, 288, 304, 320, 336, 352, 368, 384, 400, 416, 432, 448, 464, 480, 496, 512], 'cudagraph_copy_inputs': False, 'cudagraph_specialize_lora': True, 'use_inductor_graph_partition': False, 'pass_config': {'fuse_norm_quant': False, 'fuse_act_quant': False, 'fuse_attn_quant': False, 'enable_sp': False, 'fuse_gemm_comms': False, 'fuse_allreduce_rms': False, 'enable_qk_norm_rope_fusion': False, 'fuse_rope_kvcache_cat_mla': False, 'fuse_act_padding': False, 'fuse_qk_norm_rope_kvcache': False}, 'max_cudagraph_capture_size': 512, 'dynamic_shapes_config': {'type': <DynamicShapesType.BACKED: 'backed'>, 'evaluate_guards': False, 'assume_32_bit_indexing': False}, 'local_cache_dir': None, 'fast_moe_cold_start': False, 'static_all_moe_layers': []}, kernel_config=KernelConfig(ir_op_priority=IrOpPriorityConfig(rms_norm=['native'], fused_add_rms_norm=['native'], gelu_and_mul_sparse=['triton', 'native']), enable_flashinfer_autotune=True, enable_cutedsl_warmup=True, enable_jit_warmup=True, moe_backend='auto', sparse_indexer_topk_backend='auto', linear_backend='auto', linear_backend_per_quant=None)
+(EngineCore pid=5213) INFO 10-08 03:07:03 [parallel_state.py:1825] world_size=1 rank=0 local_rank=0 distributed_init_method=file:///tmp/vllm_dist_8b7506c3a2214c22baa8a5bb6467995b backend=nccl
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433] EngineCore failed to start.
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433] Traceback (most recent call last):
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]   File "/usr/local/lib/python3.13/dist-packages/vllm/v1/engine/core.py", line 1395, in run_engine_core
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]     engine_core = EngineCoreProc(*args, engine_index=dp_rank, **kwargs)
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]   File "/usr/local/lib/python3.13/dist-packages/vllm/tracing/otel.py", line 175, in sync_wrapper
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]     return func(*args, **kwargs)
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]   File "/usr/local/lib/python3.13/dist-packages/vllm/v1/engine/core.py", line 1151, in __init__
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]     super().__init__(
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]     ~~~~~~~~~~~~~~~~^
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]         vllm_config,
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]         ^^^^^^^^^^^^
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]     ...<3 lines>...
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]         internal_dp_balancing,
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]         ^^^^^^^^^^^^^^^^^^^^^^
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]     )
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]     ^
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]   File "/usr/local/lib/python3.13/dist-packages/vllm/v1/engine/core.py", line 140, in __init__
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]     self.model_executor = executor_class(vllm_config)
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]                           ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]   File "/usr/local/lib/python3.13/dist-packages/vllm/tracing/otel.py", line 175, in sync_wrapper
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]     return func(*args, **kwargs)
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]   File "/usr/local/lib/python3.13/dist-packages/vllm/v1/executor/abstract.py", line 113, in __init__
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]     self._init_executor()
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]     ~~~~~~~~~~~~~~~~~~~^^
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]   File "/usr/local/lib/python3.13/dist-packages/vllm/v1/executor/uniproc_executor.py", line 69, in _init_executor
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]     self.driver_worker.init_device()
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]   File "/usr/local/lib/python3.13/dist-packages/vllm/v1/worker/worker_base.py", line 343, in init_device
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]     self.worker.init_device()  # type: ignore
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]     ~~~~~~~~~~~~~~~~~~~~~~~^^
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]   File "/usr/local/lib/python3.13/dist-packages/vllm/tracing/otel.py", line 175, in sync_wrapper
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]     return func(*args, **kwargs)
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]   File "/usr/local/lib/python3.13/dist-packages/vllm/v1/worker/gpu_worker.py", line 470, in init_device
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]     init_worker_distributed_environment(
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]         self.vllm_config,
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]         ^^^^^^^^^^^^^^^^^
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]     ...<3 lines>...
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]         current_platform.dist_backend,
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]     )
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]     ^
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]   File "/usr/local/lib/python3.13/dist-packages/vllm/v1/worker/gpu_worker.py", line 1600, in init_worker_distributed_environment
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]     init_distributed_environment(
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]         parallel_config.world_size,
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]     ...<4 lines>...
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]         timeout,
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]         ^^^^^^^^
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]     )
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]     ^
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]   File "/usr/local/lib/python3.13/dist-packages/vllm/distributed/parallel_state.py", line 1909, in init_distributed_environment
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]     _WORLD = init_world_group(ranks, local_rank, backend)
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]   File "/usr/local/lib/python3.13/dist-packages/vllm/distributed/parallel_state.py", line 1464, in init_world_group
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]     return GroupCoordinator(
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]         group_ranks=[ranks],
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]     ...<3 lines>...
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]         group_name="world",
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]     )
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]   File "/usr/local/lib/python3.13/dist-packages/vllm/distributed/parallel_state.py", line 506, in __init__
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]     with suppress_stdout():
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]          ~~~~~~~~~~~~~~~^^
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]   File "/usr/lib/python3.13/contextlib.py", line 141, in __enter__
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]     return next(self.gen)
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]   File "/usr/local/lib/python3.13/dist-packages/vllm/utils/system_utils.py", line 75, in suppress_stdout
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]     stdout_fd = sys.stdout.fileno()
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]   File "/usr/local/lib/python3.13/dist-packages/ipykernel/iostream.py", line 311, in fileno
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433]     raise io.UnsupportedOperation("fileno")
+(EngineCore pid=5213) ERROR 10-08 03:07:03 [core.py:1433] io.UnsupportedOperation: fileno
+Process EngineCore:
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/usr/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/vllm/v1/engine/core.py", line 1437, in run_engine_core
+    raise e
+  File "/usr/local/lib/python3.13/dist-packages/vllm/v1/engine/core.py", line 1395, in run_engine_core
+    engine_core = EngineCoreProc(*args, engine_index=dp_rank, **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/vllm/tracing/otel.py", line 175, in sync_wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/vllm/v1/engine/core.py", line 1151, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        vllm_config,
+        ^^^^^^^^^^^^
+    ...<3 lines>...
+        internal_dp_balancing,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/dist-packages/vllm/v1/engine/core.py", line 140, in __init__
+    self.model_executor = executor_class(vllm_config)
+                          ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/vllm/tracing/otel.py", line 175, in sync_wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/vllm/v1/executor/abstract.py", line 113, in __init__
+    self._init_executor()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/dist-packages/vllm/v1/executor/uniproc_executor.py", line 69, in _init_executor
+    self.driver_worker.init_device()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/dist-packages/vllm/v1/worker/worker_base.py", line 343, in init_device
+    self.worker.init_device()  # type: ignore
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/dist-packages/vllm/tracing/otel.py", line 175, in sync_wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/vllm/v1/worker/gpu_worker.py", line 470, in init_device
+    init_worker_distributed_environment(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.vllm_config,
+        ^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        current_platform.dist_backend,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/dist-packages/vllm/v1/worker/gpu_worker.py", line 1600, in init_worker_distributed_environment
+    init_distributed_environment(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        parallel_config.world_size,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        timeout,
+        ^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/dist-packages/vllm/distributed/parallel_state.py", line 1909, in init_distributed_environment
+    _WORLD = init_world_group(ranks, local_rank, backend)
+  File "/usr/local/lib/python3.13/dist-packages/vllm/distributed/parallel_state.py", line 1464, in init_world_group
+    return GroupCoordinator(
+        group_ranks=[ranks],
+    ...<3 lines>...
+        group_name="world",
+    )
+  File "/usr/local/lib/python3.13/dist-packages/vllm/distributed/parallel_state.py", line 506, in __init__
+    with suppress_stdout():
+         ~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib/python3.13/dist-packages/vllm/utils/system_utils.py", line 75, in suppress_stdout
+    stdout_fd = sys.stdout.fileno()
+  File "/usr/local/lib/python3.13/dist-packages/ipykernel/iostream.py", line 311, in fileno
+    raise io.UnsupportedOperation("fileno")
+io.UnsupportedOperation: fileno
+(MainProcess pid=3445) INFO 10-08 03:07:03 [utils.py:638] [shutdown] Process manager: send sigterm to process EngineCore
+[0;31m---------------------------------------------------------------------------[0m[0;31mRuntimeError[0m                              Traceback (most recent call last)[0;32m/tmp/ipykernel_3445/51751460.py[0m in [0;36m<cell line: 0>[0;34m()[0m
+[1;32m     23[0m [0;32mfor[0m [0mname[0m [0;32min[0m [0mMODELS[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     24[0m     [0mt0[0m [0;34m=[0m [0mtime[0m[0;34m.[0m[0mtime[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;32m---> 25[0;31m     [0mllm[0m [0;34m=[0m [0mLLM[0m[0;34m([0m[0mmodel[0m[0;34m=[0m[0mname[0m[0;34m,[0m [0mdtype[0m[0;34m=[0m[0;34m"auto"[0m[0;34m,[0m [0mmax_model_len[0m[0;34m=[0m[0;36m4096[0m[0;34m,[0m [0mgpu_memory_utilization[0m[0;34m=[0m[0;36m0.85[0m[0;34m,[0m [0mseed[0m[0;34m=[0m[0;36m0[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     26[0m     [0mtok[0m [0;34m=[0m [0mllm[0m[0;34m.[0m[0mget_tokenizer[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     27[0m     prompts = [tok.apply_chat_template([{"role": "system", "content": SYS}, {"role": "user", "content": r["problem"]}],
+[0;32m/usr/local/lib/python3.13/dist-packages/vllm/entrypoints/llm.py[0m in [0;36m__init__[0;34m(self, model, runner, convert, tokenizer, tokenizer_mode, skip_tokenizer_init, trust_remote_code, allowed_local_media_path, allowed_media_domains, tensor_parallel_size, dtype, quantization, revision, tokenizer_revision, chat_template, seed, gpu_memory_utilization, cpu_offload_gb, offload_group_size, offload_num_in_group, offload_prefetch_step, offload_params, enforce_eager, enable_return_routed_experts, return_sampling_mask, disable_custom_all_reduce, hf_token, hf_overrides, mm_processor_kwargs, pooler_config, structured_outputs_config, profiler_config, attention_config, kv_cache_memory_bytes, compilation_config, quantization_config, logits_processors, spec_method, spec_model, spec_tokens, **kwargs)[0m
+[1;32m    342[0m         [0mlog_non_default_args[0m[0;34m([0m[0mengine_args[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    343[0m [0;34m[0m[0m
+[0;32m--> 344[0;31m         self.llm_engine = LLMEngine.from_engine_args(
+[0m[1;32m    345[0m             [0mengine_args[0m[0;34m=[0m[0mengine_args[0m[0;34m,[0m [0musage_context[0m[0;34m=[0m[0mUsageContext[0m[0;34m.[0m[0mLLM_CLASS[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    346[0m         )
+[0;32m/usr/local/lib/python3.13/dist-packages/vllm/v1/engine/llm_engine.py[0m in [0;36mfrom_engine_args[0;34m(cls, engine_args, usage_context, stat_loggers, enable_multiprocessing)[0m
+[1;32m    183[0m [0;34m[0m[0m
+[1;32m    184[0m         [0;31m# Create the LLMEngine.[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 185[0;31m         return cls(
+[0m[1;32m    186[0m             [0mvllm_config[0m[0;34m=[0m[0mvllm_config[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    187[0m             [0mexecutor_class[0m[0;34m=[0m[0mexecutor_class[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.13/dist-packages/vllm/v1/engine/llm_engine.py[0m in [0;36m__init__[0;34m(self, vllm_config, executor_class, log_stats, aggregate_engine_logging, usage_context, stat_loggers, mm_registry, multiprocess_mode)[0m
+[1;32m    109[0m         [0;31m# BaseRenderer.start_mm_warmup_in_background); InprocClient takes no[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    110[0m         [0;31m# renderer, so MM warmup stays inside renderer.warmup() there.[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 111[0;31m         self.engine_core = EngineCoreClient.make_client(
+[0m[1;32m    112[0m             [0mmultiprocess_mode[0m[0;34m=[0m[0mmultiprocess_mode[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    113[0m             [0masyncio_mode[0m[0;34m=[0m[0;32mFalse[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.13/dist-packages/vllm/v1/engine/core_client.py[0m in [0;36mmake_client[0;34m(multiprocess_mode, asyncio_mode, vllm_config, executor_class, log_stats, renderer)[0m
+[1;32m    124[0m [0;34m[0m[0m
+[1;32m    125[0m         [0;32mif[0m [0mmultiprocess_mode[0m [0;32mand[0m [0;32mnot[0m [0masyncio_mode[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 126[0;31m             return SyncMPClient(
+[0m[1;32m    127[0m                 [0mvllm_config[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    128[0m                 [0mexecutor_class[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.13/dist-packages/vllm/tracing/otel.py[0m in [0;36msync_wrapper[0;34m(*args, **kwargs)[0m
+[1;32m    173[0m             [0mpropagate_trace_to_env[0m[0;34m([0m[0;34m)[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    174[0m         ):
+[0;32m--> 175[0;31m             [0;32mreturn[0m [0mfunc[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    176[0m [0;34m[0m[0m
+[1;32m    177[0m     [0;32mreturn[0m [0masync_wrapper[0m [0;32mif[0m [0minspect[0m[0;34m.[0m[0miscoroutinefunction[0m[0;34m([0m[0mfunc[0m[0;34m)[0m [0;32melse[0m [0msync_wrapper[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.13/dist-packages/vllm/v1/engine/core_client.py[0m in [0;36m__init__[0;34m(self, vllm_config, executor_class, log_stats, renderer)[0m
+[1;32m    915[0m         [0mrenderer[0m[0;34m:[0m [0mBaseRenderer[0m [0;34m|[0m [0;32mNone[0m [0;34m=[0m [0;32mNone[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    916[0m     ):
+[0;32m--> 917[0;31m         super().__init__(
+[0m[1;32m    918[0m             [0masyncio_mode[0m[0;34m=[0m[0;32mFalse[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    919[0m             [0mvllm_config[0m[0;34m=[0m[0mvllm_config[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.13/dist-packages/vllm/v1/engine/core_client.py[0m in [0;36m__init__[0;34m(self, asyncio_mode, vllm_config, executor_class, log_stats, client_addresses, renderer)[0m
+[1;32m    672[0m                 ).decode()
+[1;32m    673[0m [0;34m[0m[0m
+[0;32m--> 674[0;31m                 with launch_core_engines(
+[0m[1;32m    675[0m                     [0mvllm_config[0m[0;34m,[0m [0mexecutor_class[0m[0;34m,[0m [0mlog_stats[0m[0;34m,[0m [0maddresses[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    676[0m                 ) as engine_launch:
+[0;32m/usr/lib/python3.13/contextlib.py[0m in [0;36m__exit__[0;34m(self, typ, value, traceback)[0m
+[1;32m    146[0m         [0;32mif[0m [0mtyp[0m [0;32mis[0m [0;32mNone[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    147[0m             [0;32mtry[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 148[0;31m                 [0mnext[0m[0;34m([0m[0mself[0m[0;34m.[0m[0mgen[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    149[0m             [0;32mexcept[0m [0mStopIteration[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    150[0m                 [0;32mreturn[0m [0;32mFalse[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.13/dist-packages/vllm/v1/engine/utils.py[0m in [0;36mlaunch_core_engines[0;34m(vllm_config, executor_class, log_stats, addresses)[0m
+[1;32m   1266[0m         )
+[1;32m   1267[0m         [0;32myield[0m [0mlaunch[0m[0;34m[0m[0;34m[0m[0m
+[0;32m-> 1268[0;31m         wait_for_engine_startup(
+[0m[1;32m   1269[0m             [0mhandshake_socket[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[1;32m   1270[0m             [0mengines_to_handshake[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/usr/local/lib/python3.13/dist-packages/vllm/v1/engine/utils.py[0m in [0;36mwait_for_engine_startup[0;34m(handshake_socket, core_engines, parallel_config, coordinated_dp, cache_config, launch)[0m
+[1;32m   1346[0m                     [0;34mf"Failed frontend proc(s): {failed_frontend_procs}"[0m[0;34m[0m[0;34m[0m[0m
+[1;32m   1347[0m                 )
+[0;32m-> 1348[0;31m             raise RuntimeError(
+[0m[1;32m   1349[0m                 [0;34m"Engine core initialization failed. "[0m[0;34m[0m[0;34m[0m[0m
+[1;32m   1350[0m                 [0;34m"See root cause above. "[0m[0;34m[0m[0;34m[0m[0m
+[0;31mRuntimeError[0m: Engine core initialization failed. See root cause above. Failed core proc(s): {}

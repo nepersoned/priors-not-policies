@@ -1,0 +1,64 @@
+You are an expert competition-math coach. Rank the following problems from HARDEST to EASIEST for small open language models (around 1B-7B parameters) answering in a single attempt. Consider the number of reasoning steps, the chance of an arithmetic slip, and how unusual the required idea is. Do not solve them. Output exactly one line: RANKING: followed by all the ids, hardest first, separated by commas.
+
+[id=4251] Find $\frac{16}{25}\left(\frac{5}{2}\right)^4$.
+
+[id=4779] Find $b + h.$
+
+[asy]
+unitsize(0.2 cm);
+
+pair A, B, C, D, E, F;
+
+A = (0,0);
+B = (20,0);
+C = (20,15);
+
+D = (30,0);
+E = (30 + 7,0);
+F = (30 + 7,25);
+
+draw(A--B--C--cycle);
+draw(D--E--F--cycle);
+draw(rightanglemark(A,B,C,40));
+draw(rightanglemark(D,E,F,40));
+
+label("$\theta$", (4,1.5));
+label("$20$", (A + B)/2, S);
+label("$15$", (B + C)/2, dir(0));
+label("$25$", (A + C)/2, NW);
+
+label("$2 \theta$", D + (2,1.5));
+label("$b$", (D + E)/2, S);
+label("$h$", (E + F)/2, dir(0));
+label("$25$", (D + F)/2, NW);
+[/asy]
+
+[id=188] A ball travels on a parabolic path in which the height (in feet) is given by the expression $-25t^2+75t+24$, where $t$ is the time after launch. At what time is the height of the ball at its maximum?
+
+[id=2148] Solve
+\[\sqrt{x + \sqrt{3x + 6}} + \sqrt{x - \sqrt{3x + 6}} = 6.\]
+
+[id=302] Suppose $\frac ab = \frac35$,$\frac bc=\frac{15}6$, and $\frac cd = 6$. What is the value of $\frac ad$? Express your answer in simplest form.
+
+[id=1906] Sally has a cube of side length $s$ units such that the number of square units in the surface area of the cube equals $\frac{1}{6}$ of the number of cubic units in the volume. She also wants to make a square for which the number of square units in the area of the square is equal to the number of cubic units in the volume of the cube. What should the side length of the square be?
+
+[id=3619] Evaluate $\sqrt{5625}$.
+
+[id=338] Josh and Mike live 13 miles apart. Yesterday Josh started to ride his bicycle toward Mike's house. A little later Mike started to ride his bicycle toward Josh's house. When they met, Josh had ridden for twice the length of time as Mike and at four-fifths of Mike's rate. How many miles had  Mike ridden when they met?
+
+[id=4907] Find the sum of the values of $x$ such that $\cos^{3}3x+\cos^{3}5x= 8\cos^{3}4x\cos^{3}x$, where $x$ is measured in degrees and $100 ^\circ < x < 200^\circ$.
+
+[id=2155] Let $x,$ $y,$ $z$ be positive real numbers such that $x^2 + y^2 + z^2 = 1.$  Find the maximum value of
+\[xy \sqrt{10} + yz.\]
+
+[id=3626] Points earned on equally weighted tests are 70, 80, 90, 75, 80 and 85. What is the mean of these six test scores?
+
+[id=3578] What is the 453rd digit to the right of the decimal point in the decimal expansion of $\frac{6}{13}$?
+
+[id=3970] Calculate $2^{(2^3)} - \left(2^2\right)^3$.
+
+[id=3319] How many digits are there in the number $2^3 \cdot 3^1 \cdot 4^3 \cdot 5^8$ ?
+
+[id=3764] A particular convex pentagon has two congruent, acute angles. The measure of each of the other interior angles is equal to the sum of the measures of the two acute angles. What is the common measure of the large angles, in degrees?
+
+[id=4051] How many different combinations of $\$5$ bills and $\$2$ bills can be used to make a total of $\$17$?  Order does not matter in this problem.

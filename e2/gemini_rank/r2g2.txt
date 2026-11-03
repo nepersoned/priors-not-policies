@@ -1,0 +1,44 @@
+You are an expert competition-math coach. Rank the following problems from HARDEST to EASIEST for small open language models (around 1B-7B parameters) answering in a single attempt. Consider the number of reasoning steps, the chance of an arithmetic slip, and how unusual the required idea is. Do not solve them. Output exactly one line: RANKING: followed by all the ids, hardest first, separated by commas.
+
+[id=1566] Determine the number of ways to arrange the letters of the word THAT.
+
+[id=1321] Link is coloring a triforce, which consists of four equilateral triangles and is depicted below. He has three colors to use: gold, black, and green. So that it remains recognizable, he doesn't want to color any two triangles the same color if they share a side. How many different ways can he color the triforce? (Two colorings that differ by rotation are considered distinct.) [asy]
+size(50);
+draw((0,0)--(2,0)--(1,1.732)--cycle);
+draw((1,0)--(1.5,.866)--(.5,.866)--cycle);
+[/asy]
+
+[id=3394] Alice, Bailey, Cindy, and Daniel walked around their neighborhoods selling pens. Alice earned $\$25.67$, Bailey earned $\$17.21$, Cindy earned $\$39.17$, and Daniel earned $\$26.32$. After the sale, they pooled their money together and went to the bank to convert the coins into dollars. How many cents in change did they have left after they converted as many of the coins into bills as they could?
+
+[id=818] Find the sum of the slope and $y$-intercept of the line through the points $(7,8)$ and $(9,0)$.
+
+[id=3970] Calculate $2^{(2^3)} - \left(2^2\right)^3$.
+
+[id=4189] Simplify  \[
+\left(\frac{123}{321}\right)\left(\frac{456}{654}\right)\left(\frac{789}{987}\right) \left(\frac{123}{321}\right)^{-1}\left(\frac{456}{654}\right)^{-1}\left(\frac{789}{987}\right)^{-1}.
+\]
+
+[id=2166] A polynomial with integer coefficients is of the form
+\[x^4 + a_3 x^3 + a_2 x^2 + a_1 x + 4 = 0.\]Enter all the possible integer roots of this polynomial, separated by commas.
+
+[id=2555] Let $r_1,$ $r_2,$ $\dots,$ $r_{98}$ be the roots of
+\[x^{98} + x^{97} + x^{96} + \dots + x^2 + x + 1 = 0.\]Find
+\[\frac{r_1^2}{r_1 + 1} + \frac{r_2^2}{r_2 + 1} + \dots + \frac{r_{98}^2}{r_{98} + 1}.\]
+
+[id=1906] Sally has a cube of side length $s$ units such that the number of square units in the surface area of the cube equals $\frac{1}{6}$ of the number of cubic units in the volume. She also wants to make a square for which the number of square units in the area of the square is equal to the number of cubic units in the volume of the cube. What should the side length of the square be?
+
+[id=2192] If $3+\sqrt{5}$ is a root of the equation \[x^2 - 3x + b = 0,\]compute $b.$
+
+[id=2738] Find the sum of all real numbers $x$ such that $5x^4-10x^3+10x^2-5x-11=0$.
+
+[id=2350] Compute
+\[\sum_{k = 1}^\infty \frac{k + 2}{k! + (k + 1)! + (k + 2)!}.\]
+
+[id=4271] Our club has 25 members, and wishes to pick a president, secretary, and treasurer.  In how many ways can we choose the officers, if individual members can only hold at most one office?
+
+[id=4684] Compute
+\[\cos \frac{2 \pi}{7} \cos \frac{4 \pi}{7} \cos \frac{8 \pi}{7}.\]
+
+[id=240] Evaluate $\left\lceil\sqrt{27}\right\rceil - \left\lfloor\sqrt{26}\right\rfloor$.
+
+[id=4207] What is the 20th digit in the decimal expansion for the sum of $\frac{2}{9}$ and $\frac{1}{7}$?

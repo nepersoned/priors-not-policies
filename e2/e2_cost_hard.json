@@ -1,0 +1,1448 @@
+{
+ "monkey CodeContests_Llama-3-8B-Instruct": {
+  "N": 140,
+  "mean_p": 0.021199285714285716,
+  "share_hopeless(p=0)": 0.7642857142857142,
+  "share_trivial(p=1)": 0.0,
+  "u2": {
+   "uniform": {
+    "coverage": 0.02839874721428571,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "oracle": {
+    "coverage": 0.05324958753923863,
+    "gain_pts": 2.485084032495292,
+    "share_of_oracle": 1.0
+   },
+   "E2 IAS [true p]": {
+    "coverage": 0.02839874721428571,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 linear (1-p) [true p]": {
+    "coverage": 0.02839874721428571,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 exp(-p) [true p]": {
+    "coverage": 0.02839874721428571,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 tiers 21:30:45 [true p]": {
+    "coverage": 0.02839874721428571,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   }
+  },
+  "u4": {
+   "uniform": {
+    "coverage": 0.035483083900342646,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "oracle": {
+    "coverage": 0.07060823222610134,
+    "gain_pts": 3.512514832575869,
+    "share_of_oracle": 1.0
+   },
+   "E2 IAS [true p]": {
+    "coverage": 0.035438852927954755,
+    "gain_pts": -0.00442309723878917,
+    "share_of_oracle": -0.0012592394479785112
+   },
+   "E2 linear (1-p) [true p]": {
+    "coverage": 0.03417007762330203,
+    "gain_pts": -0.1313006277040618,
+    "share_of_oracle": -0.03738080377237119
+   },
+   "E2 exp(-p) [true p]": {
+    "coverage": 0.03441961487363774,
+    "gain_pts": -0.10634690267049066,
+    "share_of_oracle": -0.03027657041735598
+   },
+   "E2 tiers 21:30:45 [true p]": {
+    "coverage": 0.035483083900342646,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   }
+  },
+  "u8": {
+   "uniform": {
+    "coverage": 0.04338700386203549,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "oracle": {
+    "coverage": 0.0858880995373499,
+    "gain_pts": 4.250109567531441,
+    "share_of_oracle": 1.0
+   },
+   "E2 IAS [true p]": {
+    "coverage": 0.04349487506364723,
+    "gain_pts": 0.010787120161173669,
+    "share_of_oracle": 0.0025380804870494367
+   },
+   "E2 linear (1-p) [true p]": {
+    "coverage": 0.04274869524985212,
+    "gain_pts": -0.06383086121833706,
+    "share_of_oracle": -0.015018638979561993
+   },
+   "E2 exp(-p) [true p]": {
+    "coverage": 0.0431332250354385,
+    "gain_pts": -0.025377882659699535,
+    "share_of_oracle": -0.005971112569325967
+   },
+   "E2 tiers 21:30:45 [true p]": {
+    "coverage": 0.04338700386203549,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 linear (1-p) [probe]": {
+    "coverage": 0.04293988625378492,
+    "gain_pts": -0.04471176082505718,
+    "share_of_oracle": -0.010520143096222994
+   },
+   "E2 exp(-p) [probe]": {
+    "coverage": 0.04333171911890918,
+    "gain_pts": -0.005528474312631315,
+    "share_of_oracle": -0.0013007839503399858
+   },
+   "E2 tiers 21:30:45 [probe]": {
+    "coverage": 0.0433870038620355,
+    "gain_pts": 6.938893903907228e-16,
+    "share_of_oracle": 1.632638828164963e-16
+   },
+   "E2 IAS [probe]": {
+    "coverage": 0.04336776623128886,
+    "gain_pts": -0.0019237630746633816,
+    "share_of_oracle": -0.0004526384659256553
+   },
+   "Bayes marginal [probe]": {
+    "coverage": 0.04272224092081721,
+    "gain_pts": -0.06647629412182832,
+    "share_of_oracle": -0.015641077733541644
+   }
+  },
+  "u16": {
+   "uniform": {
+    "coverage": 0.0541585946145464,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "oracle": {
+    "coverage": 0.10206976799952033,
+    "gain_pts": 4.7911173384973935,
+    "share_of_oracle": 1.0
+   },
+   "E2 IAS [true p]": {
+    "coverage": 0.054441276363236965,
+    "gain_pts": 0.028268174869056778,
+    "share_of_oracle": 0.00590012159416708
+   },
+   "E2 linear (1-p) [true p]": {
+    "coverage": 0.05390963116969278,
+    "gain_pts": -0.02489634448536171,
+    "share_of_oracle": -0.00519635457168114
+   },
+   "E2 exp(-p) [true p]": {
+    "coverage": 0.05397766182026882,
+    "gain_pts": -0.018093279427757597,
+    "share_of_oracle": -0.003776421688188516
+   },
+   "E2 tiers 21:30:45 [true p]": {
+    "coverage": 0.0541585946145464,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 linear (1-p) [probe]": {
+    "coverage": 0.05401195315081856,
+    "gain_pts": -0.014664146372783682,
+    "share_of_oracle": -0.0030606944762038954
+   },
+   "E2 exp(-p) [probe]": {
+    "coverage": 0.05409536116845839,
+    "gain_pts": -0.006323344608800963,
+    "share_of_oracle": -0.0013198058327630337
+   },
+   "E2 tiers 21:30:45 [probe]": {
+    "coverage": 0.0541585946145464,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 IAS [probe]": {
+    "coverage": 0.0543597235153118,
+    "gain_pts": 0.020112890076540157,
+    "share_of_oracle": 0.0041979539751468556
+   },
+   "Bayes marginal [probe]": {
+    "coverage": 0.05365930758039894,
+    "gain_pts": -0.04992870341474567,
+    "share_of_oracle": -0.010421098021031663
+   }
+  },
+  "u32": {
+   "uniform": {
+    "coverage": 0.06841355135470366,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "oracle": {
+    "coverage": 0.11994109991723992,
+    "gain_pts": 5.152754856253626,
+    "share_of_oracle": 1.0
+   },
+   "E2 IAS [true p]": {
+    "coverage": 0.06867065870688077,
+    "gain_pts": 0.025710735217711334,
+    "share_of_oracle": 0.004989706658857946
+   },
+   "E2 linear (1-p) [true p]": {
+    "coverage": 0.068181607610113,
+    "gain_pts": -0.023194374459066525,
+    "share_of_oracle": -0.004501354150569911
+   },
+   "E2 exp(-p) [true p]": {
+    "coverage": 0.06818442489105987,
+    "gain_pts": -0.02291264636437862,
+    "share_of_oracle": -0.004446678913236237
+   },
+   "E2 tiers 21:30:45 [true p]": {
+    "coverage": 0.06841355135470366,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 linear (1-p) [probe]": {
+    "coverage": 0.06798711905548555,
+    "gain_pts": -0.0426432299218113,
+    "share_of_oracle": -0.008275811893138573
+   },
+   "E2 exp(-p) [probe]": {
+    "coverage": 0.06806164252262677,
+    "gain_pts": -0.03519088320768915,
+    "share_of_oracle": -0.0068295279300896366
+   },
+   "E2 tiers 21:30:45 [probe]": {
+    "coverage": 0.06841355135470367,
+    "gain_pts": 1.3877787807814457e-15,
+    "share_of_oracle": 2.6932753827734924e-16
+   },
+   "E2 IAS [probe]": {
+    "coverage": 0.06651583420293741,
+    "gain_pts": -0.18977171517662456,
+    "share_of_oracle": -0.03682917593999425
+   },
+   "Bayes marginal [probe]": {
+    "coverage": 0.06693068607703442,
+    "gain_pts": -0.14828652776692347,
+    "share_of_oracle": -0.028778106450563227
+   }
+  }
+ },
+ "monkey CodeContests_Gemma-2B": {
+  "N": 140,
+  "mean_p": 0.00019857142857142857,
+  "share_hopeless(p=0)": 0.9285714285714286,
+  "share_trivial(p=1)": 0.0,
+  "u2": {
+   "uniform": {
+    "coverage": 0.0003949361428571377,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "oracle": {
+    "coverage": 0.005086351376493904,
+    "gain_pts": 0.4691415233636766,
+    "share_of_oracle": 1.0
+   },
+   "E2 IAS [true p]": {
+    "coverage": 0.0003949361428571377,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 linear (1-p) [true p]": {
+    "coverage": 0.0003949361428571377,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 exp(-p) [true p]": {
+    "coverage": 0.0003949361428571377,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 tiers 21:30:45 [true p]": {
+    "coverage": 0.0003949361428571377,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   }
+  },
+  "u4": {
+   "uniform": {
+    "coverage": 0.0007811745573668229,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "oracle": {
+    "coverage": 0.009101397958582577,
+    "gain_pts": 0.8320223401215753,
+    "share_of_oracle": 1.0
+   },
+   "E2 IAS [true p]": {
+    "coverage": 0.0007811745573668229,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 linear (1-p) [true p]": {
+    "coverage": 0.0007811745573668229,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 exp(-p) [true p]": {
+    "coverage": 0.0007811745573668229,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 tiers 21:30:45 [true p]": {
+    "coverage": 0.0007811745573668229,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   }
+  },
+  "u8": {
+   "uniform": {
+    "coverage": 0.0015285630341596405,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "oracle": {
+    "coverage": 0.014477345223857884,
+    "gain_pts": 1.2948782189698245,
+    "share_of_oracle": 1.0
+   },
+   "E2 IAS [true p]": {
+    "coverage": 0.0015285630341596405,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 linear (1-p) [true p]": {
+    "coverage": 0.0015285630341596405,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 exp(-p) [true p]": {
+    "coverage": 0.0015285630341596405,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 tiers 21:30:45 [true p]": {
+    "coverage": 0.0015285630341596405,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 linear (1-p) [probe]": {
+    "coverage": 0.0015162955049538795,
+    "gain_pts": -0.0012267529205761078,
+    "share_of_oracle": -0.0009473886444333618
+   },
+   "E2 exp(-p) [probe]": {
+    "coverage": 0.0015285630341596405,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 tiers 21:30:45 [probe]": {
+    "coverage": 0.0015285630341596405,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 IAS [probe]": {
+    "coverage": 0.0015285630341596405,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "Bayes marginal [probe]": {
+    "coverage": 0.0015162955049538795,
+    "gain_pts": -0.0012267529205761078,
+    "share_of_oracle": -0.0009473886444333618
+   }
+  },
+  "u16": {
+   "uniform": {
+    "coverage": 0.00292959050762033,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "oracle": {
+    "coverage": 0.02071509696282396,
+    "gain_pts": 1.7785506455203628,
+    "share_of_oracle": 1.0
+   },
+   "E2 IAS [true p]": {
+    "coverage": 0.00292959050762033,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 linear (1-p) [true p]": {
+    "coverage": 0.00292959050762033,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 exp(-p) [true p]": {
+    "coverage": 0.00292959050762033,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 tiers 21:30:45 [true p]": {
+    "coverage": 0.00292959050762033,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 linear (1-p) [probe]": {
+    "coverage": 0.0029063599494368302,
+    "gain_pts": -0.0023230558183499807,
+    "share_of_oracle": -0.0013061510641831108
+   },
+   "E2 exp(-p) [probe]": {
+    "coverage": 0.0029141937280718643,
+    "gain_pts": -0.0015396779548465696,
+    "share_of_oracle": -0.0008656925000840195
+   },
+   "E2 tiers 21:30:45 [probe]": {
+    "coverage": 0.00292959050762033,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 IAS [probe]": {
+    "coverage": 0.00292959050762033,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "Bayes marginal [probe]": {
+    "coverage": 0.002891682243672893,
+    "gain_pts": -0.003790826394743695,
+    "share_of_oracle": -0.002131413240489751
+   }
+  },
+  "u32": {
+   "uniform": {
+    "coverage": 0.005403656629962732,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "oracle": {
+    "coverage": 0.027626886026961367,
+    "gain_pts": 2.2223229396998634,
+    "share_of_oracle": 1.0
+   },
+   "E2 IAS [true p]": {
+    "coverage": 0.005403656629962732,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 linear (1-p) [true p]": {
+    "coverage": 0.005403656629962732,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 exp(-p) [true p]": {
+    "coverage": 0.005403656629962732,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 tiers 21:30:45 [true p]": {
+    "coverage": 0.005403656629962732,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 linear (1-p) [probe]": {
+    "coverage": 0.00539624187941459,
+    "gain_pts": -0.0007414750548141724,
+    "share_of_oracle": -0.00033364865275355187
+   },
+   "E2 exp(-p) [probe]": {
+    "coverage": 0.005397357054239287,
+    "gain_pts": -0.0006299575723445021,
+    "share_of_oracle": -0.0002834680599704295
+   },
+   "E2 tiers 21:30:45 [probe]": {
+    "coverage": 0.005403656629962731,
+    "gain_pts": -8.673617379884035e-17,
+    "share_of_oracle": -3.902950928030043e-17
+   },
+   "E2 IAS [probe]": {
+    "coverage": 0.005386103508112987,
+    "gain_pts": -0.0017553121849744717,
+    "share_of_oracle": -0.0007898546847613137
+   },
+   "Bayes marginal [probe]": {
+    "coverage": 0.005388399371688138,
+    "gain_pts": -0.0015257258274593843,
+    "share_of_oracle": -0.0006865455061474736
+   }
+  }
+ },
+ "monkey CodeContests_Llama-3-70B-Instruct": {
+  "N": 140,
+  "mean_p": 0.07442571428571428,
+  "share_hopeless(p=0)": 0.6214285714285714,
+  "share_trivial(p=1)": 0.014285714285714285,
+  "u2": {
+   "uniform": {
+    "coverage": 0.09371497485714284,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "oracle": {
+    "coverage": 0.13548262246112627,
+    "gain_pts": 4.176764760398344,
+    "share_of_oracle": 1.0
+   },
+   "E2 IAS [true p]": {
+    "coverage": 0.09371497485714284,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 linear (1-p) [true p]": {
+    "coverage": 0.09313402807142857,
+    "gain_pts": -0.05809467857142703,
+    "share_of_oracle": -0.013909013771196072
+   },
+   "E2 exp(-p) [true p]": {
+    "coverage": 0.09371497485714284,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 tiers 21:30:45 [true p]": {
+    "coverage": 0.09371497485714284,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   }
+  },
+  "u4": {
+   "uniform": {
+    "coverage": 0.11330076283233576,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "oracle": {
+    "coverage": 0.1690660412533167,
+    "gain_pts": 5.576527842098095,
+    "share_of_oracle": 1.0
+   },
+   "E2 IAS [true p]": {
+    "coverage": 0.114425713494829,
+    "gain_pts": 0.11249506624932404,
+    "share_of_oracle": 0.020172958771958585
+   },
+   "E2 linear (1-p) [true p]": {
+    "coverage": 0.10981640176637684,
+    "gain_pts": -0.348436106595891,
+    "share_of_oracle": -0.06248262654863686
+   },
+   "E2 exp(-p) [true p]": {
+    "coverage": 0.11208891364747685,
+    "gain_pts": -0.12118491848589069,
+    "share_of_oracle": -0.02173124960859094
+   },
+   "E2 tiers 21:30:45 [true p]": {
+    "coverage": 0.10508620136554285,
+    "gain_pts": -0.8214561466792905,
+    "share_of_oracle": -0.14730602445449792
+   }
+  },
+  "u8": {
+   "uniform": {
+    "coverage": 0.13476266181748708,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "oracle": {
+    "coverage": 0.19644566468170765,
+    "gain_pts": 6.168300286422057,
+    "share_of_oracle": 1.0
+   },
+   "E2 IAS [true p]": {
+    "coverage": 0.13544067908960641,
+    "gain_pts": 0.067801727211933,
+    "share_of_oracle": 0.010991962787736072
+   },
+   "E2 linear (1-p) [true p]": {
+    "coverage": 0.1322838231630669,
+    "gain_pts": -0.24788386544201957,
+    "share_of_oracle": -0.040186737663805504
+   },
+   "E2 exp(-p) [true p]": {
+    "coverage": 0.13364732747533645,
+    "gain_pts": -0.11153343421506368,
+    "share_of_oracle": -0.018081712795431852
+   },
+   "E2 tiers 21:30:45 [true p]": {
+    "coverage": 0.12586783858169726,
+    "gain_pts": -0.8894823235789828,
+    "share_of_oracle": -0.14420217600899746
+   },
+   "E2 linear (1-p) [probe]": {
+    "coverage": 0.13345352046475434,
+    "gain_pts": -0.13091413527327456,
+    "share_of_oracle": -0.021223696836136317
+   },
+   "E2 exp(-p) [probe]": {
+    "coverage": 0.13448851539898277,
+    "gain_pts": -0.027414641850431742,
+    "share_of_oracle": -0.00444444021488028
+   },
+   "E2 tiers 21:30:45 [probe]": {
+    "coverage": 0.13476266181748714,
+    "gain_pts": 5.551115123125783e-15,
+    "share_of_oracle": 8.999424258486816e-16
+   },
+   "E2 IAS [probe]": {
+    "coverage": 0.13512770600607416,
+    "gain_pts": 0.036504418858707144,
+    "share_of_oracle": 0.005918067727516822
+   },
+   "Bayes marginal [probe]": {
+    "coverage": 0.13273122210470517,
+    "gain_pts": -0.20314397127819128,
+    "share_of_oracle": -0.03293354114509649
+   }
+  },
+  "u16": {
+   "uniform": {
+    "coverage": 0.15843576210505458,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "oracle": {
+    "coverage": 0.21888064872144314,
+    "gain_pts": 6.044488661638855,
+    "share_of_oracle": 1.0
+   },
+   "E2 IAS [true p]": {
+    "coverage": 0.15978028996863491,
+    "gain_pts": 0.13445278635803304,
+    "share_of_oracle": 0.022243864433286662
+   },
+   "E2 linear (1-p) [true p]": {
+    "coverage": 0.1594153268757453,
+    "gain_pts": 0.09795647706907218,
+    "share_of_oracle": 0.01620591625735849
+   },
+   "E2 exp(-p) [true p]": {
+    "coverage": 0.1576195253529186,
+    "gain_pts": -0.08162367521359903,
+    "share_of_oracle": -0.01350381807010756
+   },
+   "E2 tiers 21:30:45 [true p]": {
+    "coverage": 0.14859026224451571,
+    "gain_pts": -0.984549986053887,
+    "share_of_oracle": -0.16288391643486744
+   },
+   "E2 linear (1-p) [probe]": {
+    "coverage": 0.15833951152672376,
+    "gain_pts": -0.009625057833081985,
+    "share_of_oracle": -0.0015923692427726917
+   },
+   "E2 exp(-p) [probe]": {
+    "coverage": 0.15834963928806983,
+    "gain_pts": -0.008612281698475166,
+    "share_of_oracle": -0.0014248155932747005
+   },
+   "E2 tiers 21:30:45 [probe]": {
+    "coverage": 0.15843576210505456,
+    "gain_pts": -2.7755575615628914e-15,
+    "share_of_oracle": -4.591881492272249e-16
+   },
+   "E2 IAS [probe]": {
+    "coverage": 0.15894021116276907,
+    "gain_pts": 0.050444905771449,
+    "share_of_oracle": 0.008345603506810411
+   },
+   "Bayes marginal [probe]": {
+    "coverage": 0.15685625070918538,
+    "gain_pts": -0.15795113958692042,
+    "share_of_oracle": -0.026131431197704454
+   }
+  },
+  "u32": {
+   "uniform": {
+    "coverage": 0.18246749110967256,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "oracle": {
+    "coverage": 0.23787426743100154,
+    "gain_pts": 5.5406776321328985,
+    "share_of_oracle": 1.0
+   },
+   "E2 IAS [true p]": {
+    "coverage": 0.18375286320241563,
+    "gain_pts": 0.128537209274307,
+    "share_of_oracle": 0.023198824730184902
+   },
+   "E2 linear (1-p) [true p]": {
+    "coverage": 0.18391406831734786,
+    "gain_pts": 0.1446577207675298,
+    "share_of_oracle": 0.026108308472702724
+   },
+   "E2 exp(-p) [true p]": {
+    "coverage": 0.18292926492375458,
+    "gain_pts": 0.04617738140820227,
+    "share_of_oracle": 0.008334247988079784
+   },
+   "E2 tiers 21:30:45 [true p]": {
+    "coverage": 0.17400447680406472,
+    "gain_pts": -0.8463014305607836,
+    "share_of_oracle": -0.15274330808432138
+   },
+   "E2 linear (1-p) [probe]": {
+    "coverage": 0.1831604088227998,
+    "gain_pts": 0.0692917713127239,
+    "share_of_oracle": 0.01250601025962412
+   },
+   "E2 exp(-p) [probe]": {
+    "coverage": 0.1828165020304793,
+    "gain_pts": 0.03490109208067471,
+    "share_of_oracle": 0.006299065637435298
+   },
+   "E2 tiers 21:30:45 [probe]": {
+    "coverage": 0.18246749110967253,
+    "gain_pts": -2.7755575615628914e-15,
+    "share_of_oracle": -5.009418966131826e-16
+   },
+   "E2 IAS [probe]": {
+    "coverage": 0.17980190646787503,
+    "gain_pts": -0.26655846417975304,
+    "share_of_oracle": -0.04810936168418459
+   },
+   "Bayes marginal [probe]": {
+    "coverage": 0.18106076850597513,
+    "gain_pts": -0.14067226036974245,
+    "share_of_oracle": -0.025388999272204598
+   }
+  }
+ },
+ "monkey MATH_Pythia-1.4B": {
+  "N": 128,
+  "mean_p": 0.012602343750000002,
+  "share_hopeless(p=0)": 0.203125,
+  "share_trivial(p=1)": 0.0,
+  "u2": {
+   "uniform": {
+    "coverage": 0.02433730492187499,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "oracle": {
+    "coverage": 0.059719788674442026,
+    "gain_pts": 3.5382483752567038,
+    "share_of_oracle": 1.0
+   },
+   "E2 IAS [true p]": {
+    "coverage": 0.02433730492187499,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 linear (1-p) [true p]": {
+    "coverage": 0.02433730492187499,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 exp(-p) [true p]": {
+    "coverage": 0.02433730492187499,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 tiers 21:30:45 [true p]": {
+    "coverage": 0.02433730492187499,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   }
+  },
+  "u4": {
+   "uniform": {
+    "coverage": 0.0456334810197639,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "oracle": {
+    "coverage": 0.10263290153573851,
+    "gain_pts": 5.699942051597461,
+    "share_of_oracle": 1.0
+   },
+   "E2 IAS [true p]": {
+    "coverage": 0.0456334810197639,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 linear (1-p) [true p]": {
+    "coverage": 0.0456334810197639,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 exp(-p) [true p]": {
+    "coverage": 0.0456334810197639,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 tiers 21:30:45 [true p]": {
+    "coverage": 0.036316458970361024,
+    "gain_pts": -0.9317022049402879,
+    "share_of_oracle": -0.16345818896161757
+   }
+  },
+  "u8": {
+   "uniform": {
+    "coverage": 0.08163881995225702,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "oracle": {
+    "coverage": 0.15563939985985248,
+    "gain_pts": 7.400057990759546,
+    "share_of_oracle": 1.0
+   },
+   "E2 IAS [true p]": {
+    "coverage": 0.08163881995225702,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 linear (1-p) [true p]": {
+    "coverage": 0.08132922514471441,
+    "gain_pts": -0.030959480754261248,
+    "share_of_oracle": -0.0041836808296530055
+   },
+   "E2 exp(-p) [true p]": {
+    "coverage": 0.08132922514471441,
+    "gain_pts": -0.030959480754261248,
+    "share_of_oracle": -0.0041836808296530055
+   },
+   "E2 tiers 21:30:45 [true p]": {
+    "coverage": 0.06550434417901801,
+    "gain_pts": -1.613447577323901,
+    "share_of_oracle": -0.21803174776989767
+   },
+   "E2 linear (1-p) [probe]": {
+    "coverage": 0.08056510718156122,
+    "gain_pts": -0.10737127706958033,
+    "share_of_oracle": -0.01450951833129617
+   },
+   "E2 exp(-p) [probe]": {
+    "coverage": 0.0814895818983709,
+    "gain_pts": -0.014923805388612765,
+    "share_of_oracle": -0.0020167146537565144
+   },
+   "E2 tiers 21:30:45 [probe]": {
+    "coverage": 0.08163881995225704,
+    "gain_pts": 1.3877787807814457e-15,
+    "share_of_oracle": 1.8753620343440084e-16
+   },
+   "E2 IAS [probe]": {
+    "coverage": 0.08163881995225704,
+    "gain_pts": 1.3877787807814457e-15,
+    "share_of_oracle": 1.8753620343440084e-16
+   },
+   "Bayes marginal [probe]": {
+    "coverage": 0.0803570793295778,
+    "gain_pts": -0.1281740622679231,
+    "share_of_oracle": -0.017320683490315087
+   }
+  },
+  "u16": {
+   "uniform": {
+    "coverage": 0.13684553052788523,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "oracle": {
+    "coverage": 0.22101766814055912,
+    "gain_pts": 8.417213761267389,
+    "share_of_oracle": 1.0
+   },
+   "E2 IAS [true p]": {
+    "coverage": 0.13682956393190626,
+    "gain_pts": -0.0015966595978966769,
+    "share_of_oracle": -0.00018968980035220895
+   },
+   "E2 linear (1-p) [true p]": {
+    "coverage": 0.1356161193517013,
+    "gain_pts": -0.12294111761839421,
+    "share_of_oracle": -0.01460591605551465
+   },
+   "E2 exp(-p) [true p]": {
+    "coverage": 0.13587373907761827,
+    "gain_pts": -0.09717914502669622,
+    "share_of_oracle": -0.01154528657379183
+   },
+   "E2 tiers 21:30:45 [true p]": {
+    "coverage": 0.10829115043328745,
+    "gain_pts": -2.8554380094597778,
+    "share_of_oracle": -0.3392379106016468
+   },
+   "E2 linear (1-p) [probe]": {
+    "coverage": 0.13560588198668272,
+    "gain_pts": -0.12396485412025093,
+    "share_of_oracle": -0.01472754020940837
+   },
+   "E2 exp(-p) [probe]": {
+    "coverage": 0.13610338281842652,
+    "gain_pts": -0.07421477094587126,
+    "share_of_oracle": -0.00881702342969803
+   },
+   "E2 tiers 21:30:45 [probe]": {
+    "coverage": 0.13684553052788523,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 IAS [probe]": {
+    "coverage": 0.1367460820578478,
+    "gain_pts": -0.009944847003742763,
+    "share_of_oracle": -0.001181489182264198
+   },
+   "Bayes marginal [probe]": {
+    "coverage": 0.13428180137447474,
+    "gain_pts": -0.25637291534104933,
+    "share_of_oracle": -0.03045816853562324
+   }
+  },
+  "u32": {
+   "uniform": {
+    "coverage": 0.21194566600922016,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "oracle": {
+    "coverage": 0.2981711168846235,
+    "gain_pts": 8.622545087540335,
+    "share_of_oracle": 1.0
+   },
+   "E2 IAS [true p]": {
+    "coverage": 0.21217143094367405,
+    "gain_pts": 0.022576493445389256,
+    "share_of_oracle": 0.002618309700463326
+   },
+   "E2 linear (1-p) [true p]": {
+    "coverage": 0.21082860809681525,
+    "gain_pts": -0.11170579124049063,
+    "share_of_oracle": -0.012955083459280096
+   },
+   "E2 exp(-p) [true p]": {
+    "coverage": 0.21082860809681525,
+    "gain_pts": -0.11170579124049063,
+    "share_of_oracle": -0.012955083459280096
+   },
+   "E2 tiers 21:30:45 [true p]": {
+    "coverage": 0.17246907844375234,
+    "gain_pts": -3.9476587565467818,
+    "share_of_oracle": -0.45782987696419114
+   },
+   "E2 linear (1-p) [probe]": {
+    "coverage": 0.2100706729703322,
+    "gain_pts": -0.18749930388879676,
+    "share_of_oracle": -0.021745239019942634
+   },
+   "E2 exp(-p) [probe]": {
+    "coverage": 0.21058704166026282,
+    "gain_pts": -0.1358624348957338,
+    "share_of_oracle": -0.01575665114144273
+   },
+   "E2 tiers 21:30:45 [probe]": {
+    "coverage": 0.21194566600922018,
+    "gain_pts": 2.7755575615628914e-15,
+    "share_of_oracle": 3.2189539554552173e-16
+   },
+   "E2 IAS [probe]": {
+    "coverage": 0.20632800557556852,
+    "gain_pts": -0.5617660433651639,
+    "share_of_oracle": -0.06515083860528854
+   },
+   "Bayes marginal [probe]": {
+    "coverage": 0.20731297044009298,
+    "gain_pts": -0.4632695569127182,
+    "share_of_oracle": -0.05372770477966505
+   }
+  }
+ },
+ "monkey MATH_Pythia-6.9B": {
+  "N": 128,
+  "mean_p": 0.01856015625,
+  "share_hopeless(p=0)": 0.1640625,
+  "share_trivial(p=1)": 0.0,
+  "u2": {
+   "uniform": {
+    "coverage": 0.03536863007812499,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "oracle": {
+    "coverage": 0.07709806704571828,
+    "gain_pts": 4.172943696759329,
+    "share_of_oracle": 1.0
+   },
+   "E2 IAS [true p]": {
+    "coverage": 0.03536863007812499,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 linear (1-p) [true p]": {
+    "coverage": 0.03536863007812499,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 exp(-p) [true p]": {
+    "coverage": 0.03536863007812499,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 tiers 21:30:45 [true p]": {
+    "coverage": 0.03536863007812499,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   }
+  },
+  "u4": {
+   "uniform": {
+    "coverage": 0.06480255402504964,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "oracle": {
+    "coverage": 0.12750304440604202,
+    "gain_pts": 6.270049038099238,
+    "share_of_oracle": 1.0
+   },
+   "E2 IAS [true p]": {
+    "coverage": 0.06480255402504964,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 linear (1-p) [true p]": {
+    "coverage": 0.06480255402504964,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 exp(-p) [true p]": {
+    "coverage": 0.06480255402504964,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 tiers 21:30:45 [true p]": {
+    "coverage": 0.052427404051335724,
+    "gain_pts": -1.2375149973713917,
+    "share_of_oracle": -0.19736926933932622
+   }
+  },
+  "u8": {
+   "uniform": {
+    "coverage": 0.11189423509125379,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "oracle": {
+    "coverage": 0.1869633596218247,
+    "gain_pts": 7.50691245305709,
+    "share_of_oracle": 1.0
+   },
+   "E2 IAS [true p]": {
+    "coverage": 0.11189423509125379,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 linear (1-p) [true p]": {
+    "coverage": 0.11133775068583396,
+    "gain_pts": -0.05564844054198326,
+    "share_of_oracle": -0.007412959840676065
+   },
+   "E2 exp(-p) [true p]": {
+    "coverage": 0.11133775068583396,
+    "gain_pts": -0.05564844054198326,
+    "share_of_oracle": -0.007412959840676065
+   },
+   "E2 tiers 21:30:45 [true p]": {
+    "coverage": 0.09205234555735531,
+    "gain_pts": -1.9841889533898482,
+    "share_of_oracle": -0.26431491852310246
+   },
+   "E2 linear (1-p) [probe]": {
+    "coverage": 0.10994161859293901,
+    "gain_pts": -0.19526164983147826,
+    "share_of_oracle": -0.026010913415136543
+   },
+   "E2 exp(-p) [probe]": {
+    "coverage": 0.11169057559211996,
+    "gain_pts": -0.02036594991338264,
+    "share_of_oracle": -0.002712959561036159
+   },
+   "E2 tiers 21:30:45 [probe]": {
+    "coverage": 0.1118942350912538,
+    "gain_pts": 1.3877787807814457e-15,
+    "share_of_oracle": 1.8486678637317678e-16
+   },
+   "E2 IAS [probe]": {
+    "coverage": 0.1118942350912538,
+    "gain_pts": 1.3877787807814457e-15,
+    "share_of_oracle": 1.8486678637317678e-16
+   },
+   "Bayes marginal [probe]": {
+    "coverage": 0.1095108022786269,
+    "gain_pts": -0.23834328126268872,
+    "share_of_oracle": -0.03174984159641113
+   }
+  },
+  "u16": {
+   "uniform": {
+    "coverage": 0.17928612152556095,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "oracle": {
+    "coverage": 0.259896104373477,
+    "gain_pts": 8.060998284791603,
+    "share_of_oracle": 1.0
+   },
+   "E2 IAS [true p]": {
+    "coverage": 0.17941126067250973,
+    "gain_pts": 0.012513914694878281,
+    "share_of_oracle": 0.001552402599872504
+   },
+   "E2 linear (1-p) [true p]": {
+    "coverage": 0.17735889991154336,
+    "gain_pts": -0.19272216140175935,
+    "share_of_oracle": -0.023907976976668178
+   },
+   "E2 exp(-p) [true p]": {
+    "coverage": 0.17735889991154336,
+    "gain_pts": -0.19272216140175935,
+    "share_of_oracle": -0.023907976976668178
+   },
+   "E2 tiers 21:30:45 [true p]": {
+    "coverage": 0.14693231836803078,
+    "gain_pts": -3.2353803157530168,
+    "share_of_oracle": -0.4013622384534051
+   },
+   "E2 linear (1-p) [probe]": {
+    "coverage": 0.1763529035258699,
+    "gain_pts": -0.293321799969104,
+    "share_of_oracle": -0.03638777600567212
+   },
+   "E2 exp(-p) [probe]": {
+    "coverage": 0.17752795996156112,
+    "gain_pts": -0.17581615639998271,
+    "share_of_oracle": -0.021810717505260948
+   },
+   "E2 tiers 21:30:45 [probe]": {
+    "coverage": 0.17928612152556095,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 IAS [probe]": {
+    "coverage": 0.17874025872189717,
+    "gain_pts": -0.05458628036637825,
+    "share_of_oracle": -0.006771652646219293
+   },
+   "Bayes marginal [probe]": {
+    "coverage": 0.17395010784758722,
+    "gain_pts": -0.5336013677973733,
+    "share_of_oracle": -0.06619544489968443
+   }
+  },
+  "u32": {
+   "uniform": {
+    "coverage": 0.2652605814528448,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "oracle": {
+    "coverage": 0.3476509172833431,
+    "gain_pts": 8.239033583049826,
+    "share_of_oracle": 1.0
+   },
+   "E2 IAS [true p]": {
+    "coverage": 0.26603019866375677,
+    "gain_pts": 0.07696172109119548,
+    "share_of_oracle": 0.009341110254669785
+   },
+   "E2 linear (1-p) [true p]": {
+    "coverage": 0.26379901610814643,
+    "gain_pts": -0.1461565344698379,
+    "share_of_oracle": -0.017739524059050556
+   },
+   "E2 exp(-p) [true p]": {
+    "coverage": 0.2638523478039142,
+    "gain_pts": -0.14082336489306124,
+    "share_of_oracle": -0.017092218823185443
+   },
+   "E2 tiers 21:30:45 [true p]": {
+    "coverage": 0.22734730679725834,
+    "gain_pts": -3.791327465558647,
+    "share_of_oracle": -0.46016652649147466
+   },
+   "E2 linear (1-p) [probe]": {
+    "coverage": 0.26371716669440337,
+    "gain_pts": -0.15434147584414415,
+    "share_of_oracle": -0.01873295870060186
+   },
+   "E2 exp(-p) [probe]": {
+    "coverage": 0.2640885393255492,
+    "gain_pts": -0.11720421272956028,
+    "share_of_oracle": -0.01422548064019118
+   },
+   "E2 tiers 21:30:45 [probe]": {
+    "coverage": 0.26526058145284476,
+    "gain_pts": -5.551115123125783e-15,
+    "share_of_oracle": -6.737580405723917e-16
+   },
+   "E2 IAS [probe]": {
+    "coverage": 0.25928309894948853,
+    "gain_pts": -0.597748250335628,
+    "share_of_oracle": -0.07255077240677549
+   },
+   "Bayes marginal [probe]": {
+    "coverage": 0.2605996536782295,
+    "gain_pts": -0.4660927774615298,
+    "share_of_oracle": -0.056571292344337935
+   }
+  }
+ },
+ "monkey MATH_Gemma-2B": {
+  "N": 128,
+  "mean_p": 0.09307890625000001,
+  "share_hopeless(p=0)": 0.046875,
+  "share_trivial(p=1)": 0.0,
+  "u2": {
+   "uniform": {
+    "coverage": 0.150615527265625,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "oracle": {
+    "coverage": 0.20425591451153763,
+    "gain_pts": 5.364038724591263,
+    "share_of_oracle": 1.0
+   },
+   "E2 IAS [true p]": {
+    "coverage": 0.150615527265625,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 linear (1-p) [true p]": {
+    "coverage": 0.150615527265625,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 exp(-p) [true p]": {
+    "coverage": 0.150615527265625,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 tiers 21:30:45 [true p]": {
+    "coverage": 0.150615527265625,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   }
+  },
+  "u4": {
+   "uniform": {
+    "coverage": 0.224295489037119,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "oracle": {
+    "coverage": 0.29054150034185844,
+    "gain_pts": 6.624601130473945,
+    "share_of_oracle": 1.0
+   },
+   "E2 IAS [true p]": {
+    "coverage": 0.22462554891089279,
+    "gain_pts": 0.0330059873773797,
+    "share_of_oracle": 0.004982335800648928
+   },
+   "E2 linear (1-p) [true p]": {
+    "coverage": 0.21616832832856367,
+    "gain_pts": -0.812716070855532,
+    "share_of_oracle": -0.12268151015416497
+   },
+   "E2 exp(-p) [true p]": {
+    "coverage": 0.22039983058159576,
+    "gain_pts": -0.38956584555232265,
+    "share_of_oracle": -0.05880593229383636
+   },
+   "E2 tiers 21:30:45 [true p]": {
+    "coverage": 0.20055047781782612,
+    "gain_pts": -2.374501121929287,
+    "share_of_oracle": -0.35843684399447123
+   }
+  },
+  "u8": {
+   "uniform": {
+    "coverage": 0.3104325492857267,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "oracle": {
+    "coverage": 0.38183663413901203,
+    "gain_pts": 7.140408485328531,
+    "share_of_oracle": 1.0
+   },
+   "E2 IAS [true p]": {
+    "coverage": 0.31284261327081214,
+    "gain_pts": 0.241006398508542,
+    "share_of_oracle": 0.03375246654357944
+   },
+   "E2 linear (1-p) [true p]": {
+    "coverage": 0.3050819725505423,
+    "gain_pts": -0.5350576735184409,
+    "share_of_oracle": -0.07493376248961517
+   },
+   "E2 exp(-p) [true p]": {
+    "coverage": 0.30600281704672827,
+    "gain_pts": -0.44297322389984517,
+    "share_of_oracle": -0.06203751855513963
+   },
+   "E2 tiers 21:30:45 [true p]": {
+    "coverage": 0.28281339363109625,
+    "gain_pts": -2.7619155654630467,
+    "share_of_oracle": -0.3868007791344126
+   },
+   "E2 linear (1-p) [probe]": {
+    "coverage": 0.30738149527266956,
+    "gain_pts": -0.3051054013057164,
+    "share_of_oracle": -0.04272940433766773
+   },
+   "E2 exp(-p) [probe]": {
+    "coverage": 0.3106481123921868,
+    "gain_pts": 0.02155631064600927,
+    "share_of_oracle": 0.0030189184120630124
+   },
+   "E2 tiers 21:30:45 [probe]": {
+    "coverage": 0.3104325492857267,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 IAS [probe]": {
+    "coverage": 0.31075256923884115,
+    "gain_pts": 0.032001995311442544,
+    "share_of_oracle": 0.004481815764069712
+   },
+   "Bayes marginal [probe]": {
+    "coverage": 0.3055056529010513,
+    "gain_pts": -0.49268963846754166,
+    "share_of_oracle": -0.06900020348694
+   }
+  },
+  "u16": {
+   "uniform": {
+    "coverage": 0.40709328533984834,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "oracle": {
+    "coverage": 0.48084556456501604,
+    "gain_pts": 7.375227922516769,
+    "share_of_oracle": 1.0
+   },
+   "E2 IAS [true p]": {
+    "coverage": 0.41678619256881355,
+    "gain_pts": 0.9692907228965209,
+    "share_of_oracle": 0.13142518889989152
+   },
+   "E2 linear (1-p) [true p]": {
+    "coverage": 0.4117381546173824,
+    "gain_pts": 0.4644869277534047,
+    "share_of_oracle": 0.06297933197905839
+   },
+   "E2 exp(-p) [true p]": {
+    "coverage": 0.41171770688149256,
+    "gain_pts": 0.4624421541644219,
+    "share_of_oracle": 0.0627020831115705
+   },
+   "E2 tiers 21:30:45 [true p]": {
+    "coverage": 0.3820876887430351,
+    "gain_pts": -2.500559659681323,
+    "share_of_oracle": -0.33904845869875383
+   },
+   "E2 linear (1-p) [probe]": {
+    "coverage": 0.40947849577051415,
+    "gain_pts": 0.23852104306658073,
+    "share_of_oracle": 0.032340836862596416
+   },
+   "E2 exp(-p) [probe]": {
+    "coverage": 0.4092409731659317,
+    "gain_pts": 0.21476878260833776,
+    "share_of_oracle": 0.029120290906894265
+   },
+   "E2 tiers 21:30:45 [probe]": {
+    "coverage": 0.40709328533984834,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "E2 IAS [probe]": {
+    "coverage": 0.4101385597976172,
+    "gain_pts": 0.3045274457768865,
+    "share_of_oracle": 0.041290580979491634
+   },
+   "Bayes marginal [probe]": {
+    "coverage": 0.4061043754806078,
+    "gain_pts": -0.09889098592405499,
+    "share_of_oracle": -0.013408532856610186
+   }
+  },
+  "u32": {
+   "uniform": {
+    "coverage": 0.5097889547922932,
+    "gain_pts": 0.0,
+    "share_of_oracle": 0.0
+   },
+   "oracle": {
+    "coverage": 0.5791143594697905,
+    "gain_pts": 6.932540467749726,
+    "share_of_oracle": 1.0
+   },
+   "E2 IAS [true p]": {
+    "coverage": 0.5278717411518163,
+    "gain_pts": 1.8082786359523095,
+    "share_of_oracle": 0.26083924707896716
+   },
+   "E2 linear (1-p) [true p]": {
+    "coverage": 0.5192198239110815,
+    "gain_pts": 0.943086911878821,
+    "share_of_oracle": 0.13603770742717974
+   },
+   "E2 exp(-p) [true p]": {
+    "coverage": 0.5164789356565433,
+    "gain_pts": 0.66899808642501,
+    "share_of_oracle": 0.09650114406647871
+   },
+   "E2 tiers 21:30:45 [true p]": {
+    "coverage": 0.4953066520545083,
+    "gain_pts": -1.4482302737784947,
+    "share_of_oracle": -0.20890325567022391
+   },
+   "E2 linear (1-p) [probe]": {
+    "coverage": 0.5163776817608292,
+    "gain_pts": 0.6588726968535963,
+    "share_of_oracle": 0.09504058431662696
+   },
+   "E2 exp(-p) [probe]": {
+    "coverage": 0.5148019987674839,
+    "gain_pts": 0.5013043975190645,
+    "share_of_oracle": 0.0723117881318024
+   },
+   "E2 tiers 21:30:45 [probe]": {
+    "coverage": 0.5097889547922934,
+    "gain_pts": 1.1102230246251565e-14,
+    "share_of_oracle": 1.6014663452596193e-15
+   },
+   "E2 IAS [probe]": {
+    "coverage": 0.5108316421822542,
+    "gain_pts": 0.1042687389960939,
+    "share_of_oracle": 0.015040480395484673
+   },
+   "Bayes marginal [probe]": {
+    "coverage": 0.5142523517192495,
+    "gain_pts": 0.4463396926956298,
+    "share_of_oracle": 0.06438327980514622
+   }
+  }
+ }
+}

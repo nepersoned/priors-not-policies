@@ -1,0 +1,370 @@
+{
+ "MATH_Pythia-1.4B": {
+  "fn=0.0,fp=0.0": {
+   "RR": 0.146484375,
+   "RR false-accept": 0.0,
+   "TS (exchangeable)": 0.14375,
+   "TS (exchangeable) false-accept": 0.0,
+   "TS (history)": 0.25703125,
+   "TS (history) false-accept": 0.0,
+   "TS (history) gain sd": 0.030184471088986718
+  },
+  "fn=0.0,fp=0.01": {
+   "RR": 0.135546875,
+   "RR false-accept": 0.15390625,
+   "TS (exchangeable)": 0.137109375,
+   "TS (exchangeable) false-accept": 0.153515625,
+   "TS (history)": 0.23671875,
+   "TS (history) false-accept": 0.1734375,
+   "TS (history) gain sd": 0.023106385033078523
+  },
+  "fn=0.0,fp=0.02": {
+   "RR": 0.1421875,
+   "RR false-accept": 0.303125,
+   "TS (exchangeable)": 0.141015625,
+   "TS (exchangeable) false-accept": 0.30078125,
+   "TS (history)": 0.209375,
+   "TS (history) false-accept": 0.312890625,
+   "TS (history) gain sd": 0.0211659643502251
+  },
+  "fn=0.0,fp=0.05": {
+   "RR": 0.126953125,
+   "RR false-accept": 0.794140625,
+   "TS (exchangeable)": 0.128125,
+   "TS (exchangeable) false-accept": 0.794140625,
+   "TS (history)": 0.1328125,
+   "TS (history) false-accept": 0.783984375,
+   "TS (history) gain sd": 0.00647778279366289
+  },
+  "fn=0.0,fp=0.1": {
+   "RR": 0.08359375,
+   "RR false-accept": 0.91640625,
+   "TS (exchangeable)": 0.08359375,
+   "TS (exchangeable) false-accept": 0.91640625,
+   "TS (history)": 0.08359375,
+   "TS (history) false-accept": 0.91640625,
+   "TS (history) gain sd": 0.0
+  },
+  "fn=0.2,fp=0.0": {
+   "RR": 0.1125,
+   "RR false-accept": 0.0,
+   "TS (exchangeable)": 0.1109375,
+   "TS (exchangeable) false-accept": 0.0,
+   "TS (history)": 0.23359375,
+   "TS (history) false-accept": 0.0,
+   "TS (history) gain sd": 0.027676546224872426
+  },
+  "fn=0.2,fp=0.01": {
+   "RR": 0.118359375,
+   "RR false-accept": 0.16875,
+   "TS (exchangeable)": 0.116796875,
+   "TS (exchangeable) false-accept": 0.1734375,
+   "TS (history)": 0.205078125,
+   "TS (history) false-accept": 0.15703125,
+   "TS (history) gain sd": 0.023683603736287688
+  },
+  "fn=0.2,fp=0.02": {
+   "RR": 0.115234375,
+   "RR false-accept": 0.30625,
+   "TS (exchangeable)": 0.1140625,
+   "TS (exchangeable) false-accept": 0.312109375,
+   "TS (history)": 0.180078125,
+   "TS (history) false-accept": 0.30859375,
+   "TS (history) gain sd": 0.02265625
+  },
+  "fn=0.2,fp=0.05": {
+   "RR": 0.105859375,
+   "RR false-accept": 0.778125,
+   "TS (exchangeable)": 0.10546875,
+   "TS (exchangeable) false-accept": 0.7828125,
+   "TS (history)": 0.112109375,
+   "TS (history) false-accept": 0.777734375,
+   "TS (history) gain sd": 0.006346905003621844
+  },
+  "fn=0.2,fp=0.1": {
+   "RR": 0.062109375,
+   "RR false-accept": 0.937890625,
+   "TS (exchangeable)": 0.062109375,
+   "TS (exchangeable) false-accept": 0.937890625,
+   "TS (history)": 0.062109375,
+   "TS (history) false-accept": 0.937890625,
+   "TS (history) gain sd": 0.0
+  }
+ },
+ "MATH_Pythia-6.9B": {
+  "fn=0.0,fp=0.0": {
+   "RR": 0.195703125,
+   "RR false-accept": 0.0,
+   "TS (exchangeable)": 0.1953125,
+   "TS (exchangeable) false-accept": 0.0,
+   "TS (history)": 0.3125,
+   "TS (history) false-accept": 0.0,
+   "TS (history) gain sd": 0.03000193271769129
+  },
+  "fn=0.0,fp=0.01": {
+   "RR": 0.184765625,
+   "RR false-accept": 0.165625,
+   "TS (exchangeable)": 0.183984375,
+   "TS (exchangeable) false-accept": 0.165625,
+   "TS (history)": 0.273046875,
+   "TS (history) false-accept": 0.1609375,
+   "TS (history) gain sd": 0.027852411671837322
+  },
+  "fn=0.0,fp=0.02": {
+   "RR": 0.17734375,
+   "RR false-accept": 0.3015625,
+   "TS (exchangeable)": 0.1765625,
+   "TS (exchangeable) false-accept": 0.298828125,
+   "TS (history)": 0.250390625,
+   "TS (history) false-accept": 0.30703125,
+   "TS (history) gain sd": 0.01606319155855632
+  },
+  "fn=0.0,fp=0.05": {
+   "RR": 0.173828125,
+   "RR false-accept": 0.7796875,
+   "TS (exchangeable)": 0.17265625,
+   "TS (exchangeable) false-accept": 0.780078125,
+   "TS (history)": 0.176953125,
+   "TS (history) false-accept": 0.779296875,
+   "TS (history) gain sd": 0.005740991584648074
+  },
+  "fn=0.0,fp=0.1": {
+   "RR": 0.118359375,
+   "RR false-accept": 0.881640625,
+   "TS (exchangeable)": 0.118359375,
+   "TS (exchangeable) false-accept": 0.881640625,
+   "TS (history)": 0.118359375,
+   "TS (history) false-accept": 0.881640625,
+   "TS (history) gain sd": 0.0
+  },
+  "fn=0.2,fp=0.0": {
+   "RR": 0.177734375,
+   "RR false-accept": 0.0,
+   "TS (exchangeable)": 0.178515625,
+   "TS (exchangeable) false-accept": 0.0,
+   "TS (history)": 0.29375,
+   "TS (history) false-accept": 0.0,
+   "TS (history) gain sd": 0.03098274390563036
+  },
+  "fn=0.2,fp=0.01": {
+   "RR": 0.167578125,
+   "RR false-accept": 0.15859375,
+   "TS (exchangeable)": 0.16484375,
+   "TS (exchangeable) false-accept": 0.1578125,
+   "TS (history)": 0.257421875,
+   "TS (history) false-accept": 0.163671875,
+   "TS (history) gain sd": 0.02284404924564601
+  },
+  "fn=0.2,fp=0.02": {
+   "RR": 0.16796875,
+   "RR false-accept": 0.305078125,
+   "TS (exchangeable)": 0.1671875,
+   "TS (exchangeable) false-accept": 0.30703125,
+   "TS (history)": 0.23203125,
+   "TS (history) false-accept": 0.309765625,
+   "TS (history) gain sd": 0.018750000000000003
+  },
+  "fn=0.2,fp=0.05": {
+   "RR": 0.153125,
+   "RR false-accept": 0.768359375,
+   "TS (exchangeable)": 0.15234375,
+   "TS (exchangeable) false-accept": 0.768359375,
+   "TS (history)": 0.159375,
+   "TS (history) false-accept": 0.76875,
+   "TS (history) gain sd": 0.010937500000000001
+  },
+  "fn=0.2,fp=0.1": {
+   "RR": 0.10078125,
+   "RR false-accept": 0.89921875,
+   "TS (exchangeable)": 0.10078125,
+   "TS (exchangeable) false-accept": 0.89921875,
+   "TS (history)": 0.10078125,
+   "TS (history) false-accept": 0.89921875,
+   "TS (history) gain sd": 0.0
+  }
+ },
+ "MATH_Gemma-2B": {
+  "fn=0.0,fp=0.0": {
+   "RR": 0.455078125,
+   "RR false-accept": 0.0,
+   "TS (exchangeable)": 0.455078125,
+   "TS (exchangeable) false-accept": 0.0,
+   "TS (history)": 0.4890625,
+   "TS (history) false-accept": 0.0,
+   "TS (history) gain sd": 0.028413773584247397
+  },
+  "fn=0.0,fp=0.01": {
+   "RR": 0.446484375,
+   "RR false-accept": 0.146484375,
+   "TS (exchangeable)": 0.448828125,
+   "TS (exchangeable) false-accept": 0.148828125,
+   "TS (history)": 0.480859375,
+   "TS (history) false-accept": 0.151171875,
+   "TS (history) gain sd": 0.022289597840136104
+  },
+  "fn=0.0,fp=0.02": {
+   "RR": 0.447265625,
+   "RR false-accept": 0.308984375,
+   "TS (exchangeable)": 0.447265625,
+   "TS (exchangeable) false-accept": 0.31171875,
+   "TS (history)": 0.466015625,
+   "TS (history) false-accept": 0.303125,
+   "TS (history) gain sd": 0.015507369719749382
+  },
+  "fn=0.0,fp=0.05": {
+   "RR": 0.382421875,
+   "RR false-accept": 0.617578125,
+   "TS (exchangeable)": 0.382421875,
+   "TS (exchangeable) false-accept": 0.617578125,
+   "TS (history)": 0.382421875,
+   "TS (history) false-accept": 0.617578125,
+   "TS (history) gain sd": 0.0
+  },
+  "fn=0.0,fp=0.1": {
+   "RR": 0.3015625,
+   "RR false-accept": 0.6984375,
+   "TS (exchangeable)": 0.3015625,
+   "TS (exchangeable) false-accept": 0.6984375,
+   "TS (history)": 0.3015625,
+   "TS (history) false-accept": 0.6984375,
+   "TS (history) gain sd": 0.0
+  },
+  "fn=0.2,fp=0.0": {
+   "RR": 0.413671875,
+   "RR false-accept": 0.0,
+   "TS (exchangeable)": 0.413671875,
+   "TS (exchangeable) false-accept": 0.0,
+   "TS (history)": 0.460546875,
+   "TS (history) false-accept": 0.0,
+   "TS (history) gain sd": 0.029851520585223126
+  },
+  "fn=0.2,fp=0.01": {
+   "RR": 0.416015625,
+   "RR false-accept": 0.14375,
+   "TS (exchangeable)": 0.41875,
+   "TS (exchangeable) false-accept": 0.14375,
+   "TS (history)": 0.45,
+   "TS (history) false-accept": 0.14921875,
+   "TS (history) gain sd": 0.023079955073003828
+  },
+  "fn=0.2,fp=0.02": {
+   "RR": 0.409375,
+   "RR false-accept": 0.301953125,
+   "TS (exchangeable)": 0.408984375,
+   "TS (exchangeable) false-accept": 0.30078125,
+   "TS (history)": 0.426953125,
+   "TS (history) false-accept": 0.3046875,
+   "TS (history) gain sd": 0.015600566834153014
+  },
+  "fn=0.2,fp=0.05": {
+   "RR": 0.358984375,
+   "RR false-accept": 0.639453125,
+   "TS (exchangeable)": 0.359375,
+   "TS (exchangeable) false-accept": 0.6390625,
+   "TS (history)": 0.359375,
+   "TS (history) false-accept": 0.6375,
+   "TS (history) gain sd": 0.0017026948998205753
+  },
+  "fn=0.2,fp=0.1": {
+   "RR": 0.27421875,
+   "RR false-accept": 0.72578125,
+   "TS (exchangeable)": 0.27421875,
+   "TS (exchangeable) false-accept": 0.72578125,
+   "TS (history)": 0.27421875,
+   "TS (history) false-accept": 0.72578125,
+   "TS (history) gain sd": 0.0
+  }
+ },
+ "CodeContests_Llama-3-8B-Instruct": {
+  "fn=0.0,fp=0.0": {
+   "RR": 0.05607142857142857,
+   "RR false-accept": 0.0,
+   "TS (exchangeable)": 0.05607142857142857,
+   "TS (exchangeable) false-accept": 0.0,
+   "TS (history)": 0.08892857142857141,
+   "TS (history) false-accept": 0.0,
+   "TS (history) gain sd": 0.011823532398033462
+  },
+  "fn=0.0,fp=0.01": {
+   "RR": 0.057857142857142864,
+   "RR false-accept": 0.16571428571428576,
+   "TS (exchangeable)": 0.06,
+   "TS (exchangeable) false-accept": 0.16892857142857143,
+   "TS (history)": 0.08535714285714285,
+   "TS (history) false-accept": 0.16035714285714286,
+   "TS (history) gain sd": 0.013790524697362732
+  },
+  "fn=0.0,fp=0.02": {
+   "RR": 0.05178571428571429,
+   "RR false-accept": 0.30821428571428566,
+   "TS (exchangeable)": 0.05285714285714286,
+   "TS (exchangeable) false-accept": 0.30821428571428566,
+   "TS (history)": 0.07035714285714285,
+   "TS (history) false-accept": 0.3014285714285714,
+   "TS (history) gain sd": 0.008864052604279183
+  },
+  "fn=0.0,fp=0.05": {
+   "RR": 0.05107142857142858,
+   "RR false-accept": 0.7849999999999999,
+   "TS (exchangeable)": 0.051428571428571435,
+   "TS (exchangeable) false-accept": 0.7828571428571428,
+   "TS (history)": 0.054285714285714284,
+   "TS (history) false-accept": 0.7842857142857144,
+   "TS (history) gain sd": 0.0052852316381959774
+  },
+  "fn=0.0,fp=0.1": {
+   "RR": 0.04357142857142857,
+   "RR false-accept": 0.9564285714285713,
+   "TS (exchangeable)": 0.04357142857142857,
+   "TS (exchangeable) false-accept": 0.9564285714285713,
+   "TS (history)": 0.04357142857142857,
+   "TS (history) false-accept": 0.9564285714285713,
+   "TS (history) gain sd": 0.0
+  },
+  "fn=0.2,fp=0.0": {
+   "RR": 0.05071428571428571,
+   "RR false-accept": 0.0,
+   "TS (exchangeable)": 0.05,
+   "TS (exchangeable) false-accept": 0.0,
+   "TS (history)": 0.08142857142857143,
+   "TS (history) false-accept": 0.0,
+   "TS (history) gain sd": 0.010618620533798934
+  },
+  "fn=0.2,fp=0.01": {
+   "RR": 0.048928571428571425,
+   "RR false-accept": 0.16857142857142857,
+   "TS (exchangeable)": 0.05,
+   "TS (exchangeable) false-accept": 0.16607142857142856,
+   "TS (history)": 0.07428571428571427,
+   "TS (history) false-accept": 0.1632142857142857,
+   "TS (history) gain sd": 0.011622242925194988
+  },
+  "fn=0.2,fp=0.02": {
+   "RR": 0.04785714285714286,
+   "RR false-accept": 0.3142857142857142,
+   "TS (exchangeable)": 0.04785714285714286,
+   "TS (exchangeable) false-accept": 0.3164285714285714,
+   "TS (history)": 0.06214285714285713,
+   "TS (history) false-accept": 0.3160714285714285,
+   "TS (history) gain sd": 0.009313146293146638
+  },
+  "fn=0.2,fp=0.05": {
+   "RR": 0.04857142857142857,
+   "RR false-accept": 0.7892857142857143,
+   "TS (exchangeable)": 0.048214285714285716,
+   "TS (exchangeable) false-accept": 0.7871428571428571,
+   "TS (history)": 0.04964285714285714,
+   "TS (history) false-accept": 0.7978571428571428,
+   "TS (history) gain sd": 0.002550510153051017
+  },
+  "fn=0.2,fp=0.1": {
+   "RR": 0.03821428571428571,
+   "RR false-accept": 0.9617857142857142,
+   "TS (exchangeable)": 0.03821428571428571,
+   "TS (exchangeable) false-accept": 0.9617857142857142,
+   "TS (history)": 0.03821428571428571,
+   "TS (history) false-accept": 0.9617857142857142,
+   "TS (history) gain sd": 0.0
+  }
+ }
+}

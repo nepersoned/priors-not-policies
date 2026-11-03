@@ -1,0 +1,9 @@
+﻿0.5B       mean p 0.163 | p=0 share 0.33 | solved-ever 0.68
+Math-1.5B  mean p 0.619 | p=0 share 0.09 | solved-ever 0.91
+Math-7B    mean p 0.737 | p=0 share 0.07 | solved-ever 0.93
+0.5B      <- Math-1.5B rho +0.62 u= 4 | RR  36.0% | TS +2.4 [+2.0,+2.8] | UCB +2.6 [+2.2,+3.0] | TS-exch -0.2 [-0.4,-0.0]
+0.5B      <- Math-1.5B rho +0.62 u=16 | RR  58.4% | TS -0.1 [-0.5,+0.3] | UCB -1.8 [-3.1,-0.6] | TS-exch -0.0 [-0.1,+0.1]
+0.5B      <- Math-7B   rho +0.56 u= 4 | RR  35.4% | TS +1.8 [+1.4,+2.2] | UCB +2.2 [+1.8,+2.7] | TS-exch -0.3 [-0.4,-0.1]
+0.5B      <- Math-7B   rho +0.56 u=16 | RR  57.6% | TS +0.3 [+0.0,+0.6] | UCB -0.3 [-1.1,+0.3] | TS-exch +0.0 [-0.1,+0.2]
+Math-1.5B <- Math-7B   rho +0.77 u= 4 | RR  86.4% | TS -1.6 [-2.3,-1.0] | UCB -5.2 [-6.5,-4.1] | TS-exch -0.0 [-0.1,+0.0]
+Math-1.5B <- Math-7B   rho +0.77 u=16 | RR  91.0% | TS -4.2 [-4.9,-3.4] | UCB -10.9 [-12.1,-9.7] | TS-exch +0.0 [+0.0,+0.0]

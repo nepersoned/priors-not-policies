@@ -1,0 +1,10 @@
+﻿NCO cluster AM                   r(true,Atkinson)=0.969 r(true,fit-opt)=0.993 MAE=1.49 mean=9.83 | level|spread=+0.45 level|fit=+0.01 spread|level=+0.91
+NCO cluster SymNCO               r(true,Atkinson)=0.966 r(true,fit-opt)=0.996 MAE=1.12 mean=7.15 | level|spread=+0.21 level|fit=-0.46 spread|level=+0.93
+NCO size AM                      r(true,Atkinson)=0.920 r(true,fit-opt)=0.970 MAE=0.26 mean=0.83 | level|spread=-0.76 level|fit=-0.44 spread|level=+0.77
+NCO size SymNCO                  r(true,Atkinson)=0.928 r(true,fit-opt)=0.976 MAE=0.16 mean=0.77 | level|spread=-0.77 level|fit=-0.43 spread|level=+0.89
+HPO-B all pairs                  r(true,Atkinson)=0.802 r(true,fit-opt)=0.932 MAE=6.26 mean=13.80 | level|spread=+0.55 level|fit=+0.20 spread|level=+0.80
+LLM GSM8K 4o-mini RM internlm    r(true,Atkinson)=0.965 r(true,fit-opt)=0.979 MAE=0.39 mean=1.27 | level|spread=+0.24 level|fit=+0.03 spread|level=+0.97
+LLM GSM8K 4o-mini RM skyworks    r(true,Atkinson)=0.974 r(true,fit-opt)=0.981 MAE=0.24 mean=0.87 | level|spread=-0.02 level|fit=-0.01 spread|level=+0.96
+LLM MATH PRM800K ORM             r(true,Atkinson)=0.772 r(true,fit-opt)=0.977 MAE=9.64 mean=19.36 | level|spread=-0.75 level|fit=+0.31 spread|level=+0.68
+LLM MATH PRM800K PRM             r(true,Atkinson)=0.778 r(true,fit-opt)=0.958 MAE=7.44 mean=14.62 | level|spread=+0.18 level|fit=+0.56 spread|level=+0.85
+saved paper4/fig_same_sample_flip.png

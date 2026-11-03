@@ -1,0 +1,42 @@
+﻿monkey MATH_Pythia-1.4B                  N= 128 u=  4 text-rho +0.17 | RR   4.7% | E2 online:  +0.0 Bayes-text:  -0.8 Bayes-text-tempered:  -0.6
+monkey MATH_Pythia-1.4B                  N= 128 u= 16 text-rho +0.17 | RR  14.7% | E2 online:  +0.0 Bayes-text:  -1.8 Bayes-text-tempered:  -0.9
+monkey MATH_Pythia-1.4B                  N= 128 u= 64 text-rho +0.13 | RR  33.3% | E2 online:  +0.0 Bayes-text:  -1.8 Bayes-text-tempered:  -0.6
+monkey MATH_Pythia-6.9B                  N= 128 u=  4 text-rho +0.16 | RR   6.7% | E2 online:  +0.0 Bayes-text:  -1.4 Bayes-text-tempered:  -1.1
+monkey MATH_Pythia-6.9B                  N= 128 u= 16 text-rho +0.20 | RR  19.4% | E2 online:  +0.0 Bayes-text:  -2.0 Bayes-text-tempered:  -0.5
+monkey MATH_Pythia-6.9B                  N= 128 u= 64 text-rho +0.17 | RR  43.0% | E2 online:  +0.0 Bayes-text:  -2.7 Bayes-text-tempered:  -0.9
+monkey MATH_Gemma-2B                     N= 128 u=  4 text-rho +0.23 | RR  23.4% | E2 online:  +0.0 Bayes-text:  -0.2 Bayes-text-tempered:  +1.0
+monkey MATH_Gemma-2B                     N= 128 u= 16 text-rho +0.21 | RR  45.8% | E2 online:  +0.0 Bayes-text:  -1.3 Bayes-text-tempered:  -0.3
+monkey MATH_Gemma-2B                     N= 128 u= 64 text-rho +0.20 | RR  71.7% | E2 online:  -0.5 Bayes-text:  -3.1 Bayes-text-tempered:  +0.2
+monkey MATH_Llama-3-8B-Instruct          N= 128 u=  4 text-rho +0.30 | RR  53.7% | E2 online:  +0.0 Bayes-text:  -2.3 Bayes-text-tempered:  -0.7
+monkey MATH_Llama-3-8B-Instruct          N= 128 u= 16 text-rho +0.28 | RR  77.8% | E2 online:  +0.1 Bayes-text:  -4.5 Bayes-text-tempered:  +0.0
+monkey MATH_Llama-3-8B-Instruct          N= 128 u= 64 text-rho +0.29 | RR  90.7% | E2 online:  +0.0 Bayes-text:  -9.2 Bayes-text-tempered:  -0.1
+monkey CodeContests_Llama-3-8B-Instruct  N= 140 u=  4 text-rho +0.05 | RR   3.5% | E2 online:  +0.0 Bayes-text:  -2.0 Bayes-text-tempered:  -0.3
+monkey CodeContests_Llama-3-8B-Instruct  N= 140 u= 16 text-rho +0.09 | RR   6.1% | E2 online:  +0.0 Bayes-text:  -3.0 Bayes-text-tempered:  -0.9
+monkey CodeContests_Llama-3-8B-Instruct  N= 140 u= 64 text-rho +0.07 | RR   9.1% | E2 online:  +0.1 Bayes-text:  -2.8 Bayes-text-tempered:  -0.6
+monkey MiniF2F-MATH_Llama-3-8B-Instruct  N= 130 u=  4 text-rho +0.42 | RR  32.7% | E2 online:  +0.0 Bayes-text:  -0.9 Bayes-text-tempered:  -0.0
+monkey MiniF2F-MATH_Llama-3-8B-Instruct  N= 130 u= 16 text-rho +0.41 | RR  40.4% | E2 online:  -1.1 Bayes-text:  -1.2 Bayes-text-tempered:  -0.4
+monkey MiniF2F-MATH_Llama-3-8B-Instruct  N= 130 u= 64 text-rho +0.42 | RR  42.8% | E2 online:  -0.6 Bayes-text:  -1.0 Bayes-text-tempered:  -0.1
+weaver MATH500 8B                        N= 500 u=  4 text-rho +0.42 | RR  93.7% | E2 online:  +0.0 Bayes-text:  -0.6 Bayes-text-tempered:  -0.1
+weaver MATH500 8B                        N= 500 u= 16 text-rho +0.41 | RR  99.2% | E2 online:  +0.0 Bayes-text:  -4.6 Bayes-text-tempered:  +0.0
+weaver MATH500 8B                        N= 500 u= 64 text-rho +0.41 | RR  99.2% | E2 online:  +0.0 Bayes-text:  -1.0 Bayes-text-tempered:  +0.0
+weaver MATH500 70B                       N= 500 u=  4 text-rho +0.40 | RR  98.0% | E2 online:  +0.0 Bayes-text:  -5.1 Bayes-text-tempered:  -0.2
+weaver MATH500 70B                       N= 500 u= 16 text-rho +0.40 | RR  98.6% | E2 online:  +0.0 Bayes-text:  -2.4 Bayes-text-tempered:  +0.0
+weaver MATH500 70B                       N= 500 u= 64 text-rho +0.40 | RR  98.6% | E2 online:  +0.0 Bayes-text:  -1.3 Bayes-text-tempered:  +0.0
+weaver GPQA 8B                           N= 646 u=  4 text-rho +0.37 | RR  68.5% | E2 online:  +0.0 Bayes-text:  -0.0 Bayes-text-tempered:  +0.1
+weaver GPQA 8B                           N= 646 u= 16 text-rho +0.36 | RR  95.2% | E2 online:  +0.0 Bayes-text:  -1.8 Bayes-text-tempered:  +0.0
+weaver GPQA 8B                           N= 646 u= 64 text-rho +0.37 | RR  95.2% | E2 online:  +0.0 Bayes-text:  -1.1 Bayes-text-tempered:  +0.0
+weaver GPQA 70B                          N= 646 u=  4 text-rho +0.59 | RR  65.7% | E2 online:  +0.0 Bayes-text:  +0.8 Bayes-text-tempered:  +0.7
+weaver GPQA 70B                          N= 646 u= 16 text-rho +0.60 | RR  77.5% | E2 online:  -0.3 Bayes-text:  -0.3 Bayes-text-tempered:  +0.2
+weaver GPQA 70B                          N= 646 u= 64 text-rho +0.60 | RR  81.0% | E2 online:  +0.0 Bayes-text:  -2.0 Bayes-text-tempered:  +0.0
+weaver MMLU 8B                           N= 719 u=  4 text-rho +0.38 | RR  97.7% | E2 online:  +0.0 Bayes-text:  -2.0 Bayes-text-tempered:  -0.1
+weaver MMLU 8B                           N= 719 u= 16 text-rho +0.39 | RR  98.5% | E2 online:  +0.0 Bayes-text:  -2.8 Bayes-text-tempered:  +0.0
+weaver MMLU 8B                           N= 719 u= 64 text-rho +0.39 | RR  98.5% | E2 online:  +0.0 Bayes-text:  -1.4 Bayes-text-tempered:  +0.0
+weaver MMLU 70B                          N= 719 u=  4 text-rho +0.31 | RR  95.2% | E2 online:  +0.0 Bayes-text:  -2.1 Bayes-text-tempered:  -0.0
+weaver MMLU 70B                          N= 719 u= 16 text-rho +0.31 | RR  96.0% | E2 online:  +0.0 Bayes-text:  -2.1 Bayes-text-tempered:  +0.0
+weaver MMLU 70B                          N= 719 u= 64 text-rho +0.32 | RR  96.0% | E2 online:  +0.0 Bayes-text:  -1.0 Bayes-text-tempered:  +0.0
+weaver MMLU-Pro 8B                       N= 500 u=  4 text-rho +0.28 | RR  84.2% | E2 online:  +0.0 Bayes-text:  -0.4 Bayes-text-tempered:  -0.2
+weaver MMLU-Pro 8B                       N= 500 u= 16 text-rho +0.30 | RR  96.8% | E2 online:  +0.0 Bayes-text:  -2.3 Bayes-text-tempered:  +0.0
+weaver MMLU-Pro 8B                       N= 500 u= 64 text-rho +0.29 | RR  96.8% | E2 online:  +0.0 Bayes-text:  -2.0 Bayes-text-tempered:  +0.0
+weaver MMLU-Pro 70B                      N= 500 u=  4 text-rho +0.26 | RR  87.7% | E2 online:  -0.0 Bayes-text:  -0.9 Bayes-text-tempered:  -0.1
+weaver MMLU-Pro 70B                      N= 500 u= 16 text-rho +0.27 | RR  92.0% | E2 online:  +0.0 Bayes-text:  -0.4 Bayes-text-tempered:  +0.0
+weaver MMLU-Pro 70B                      N= 500 u= 64 text-rho +0.27 | RR  92.0% | E2 online:  +0.0 Bayes-text:  -0.9 Bayes-text-tempered:  +0.0

@@ -1,0 +1,103 @@
+You are an expert competition-math coach. Rank the following problems from HARDEST to EASIEST for small open language models (around 1B-7B parameters) answering in a single attempt. Consider the number of reasoning steps, the chance of an arithmetic slip, and how unusual the required idea is. Do not solve them. Output exactly one line: RANKING: followed by all the ids, hardest first, separated by commas.
+
+[id=3578] What is the 453rd digit to the right of the decimal point in the decimal expansion of $\frac{6}{13}$?
+
+[id=4258] I am going to buy exotic fruits.  Dragonfruit costs $x-4$ dollars.  Starfruit is five dollars less expensive than rambutan.  Rambutan costs $2x$ dollars more than dragonfruit.  How much does it cost to buy one rambutan, two starfruit, and three dragonfruit? Your answer will be an expression that depends on $x$.
+
+[id=1541] Mike draws five cards from a standard 52-card deck. What is the probability that he draws a card from at least three of the four suits? Express your answer as a simplified fraction.
+
+[id=2188] Find all real values of $a$ for which the quadratic equation
+\[(3 - i) x^2 + (a + 4i) x - 115 + 5i = 0\]has at least one real root.
+
+Enter all the possible values of $a,$ separated by commas.
+
+[id=1680] Coplanar squares $ABGH$ and $BCDF$ are adjacent, with $CD = 10$ units and $AH = 5$ units. Point $E$ is on segments $AD$ and $GB$. What is the area of triangle $ABE$, in square units? Express your answer as a common fraction.
+
+[asy]
+draw((0,0)--(5,0)--(5,5)--(0,5)--(0,0)--cycle,linewidth(2));
+draw((5,0)--(15,0)--(15,10)--(5,10)--(5,0)--cycle,linewidth(2));
+
+draw((0,0)--(15,10),linewidth(2));
+
+filldraw((0,0)--(5,0)--(5,10/3)--(0,0)--cycle,gray,linewidth(2));
+
+label("A",(0,0),SW);
+label("B",(5,0),S);
+label("C",(15,0),SE);
+label("D",(15,10),NE);
+label("E",(5,10/3),SE);
+label("F",(5,10),NW);
+label("G",(5,5),NW);
+label("H",(0,5),NW);
+[/asy]
+
+[id=4988] Let $\mathbf{a}$ and $\mathbf{b}$ be orthogonal vectors.  If $\operatorname{proj}_{\mathbf{a}} \begin{pmatrix} 0 \\ 13 \end{pmatrix} = \begin{pmatrix} 6 \\ 4 \end{pmatrix},$ then find $\operatorname{proj}_{\mathbf{b}} \begin{pmatrix} 0 \\ 13 \end{pmatrix}.$
+
+[id=4228] Two shaded quarter-circles, each with a radius of 4 units, are formed in the 4 by 8 rectangular region shown. What is the area of the non-shaded region, in square units? Express the area in the form $a-b\pi$ where $a$ and $b$ are integers.
+
+[asy]
+
+size(4cm,4cm);
+
+pair A,B,C,D,a,b,X;
+
+A=(0,0);
+B=(8,0);
+C=(8,4);
+D=(0,4);
+
+X=(4,4);
+
+draw(A--B--C--D--A);
+
+a=(3,1.5);
+
+fill((A..a..X--D--A--cycle),gray);
+
+draw(A..a..X);
+
+b=(5,1.5);
+
+fill((B..b..X--C--B--cycle),gray);
+
+draw(B..b..X);
+
+label("$8$",midpoint(A--B),S);
+label("$4$",midpoint(B--C),E);
+
+[/asy]
+
+[id=588] Evaluate $\dfrac{7}{45^2 - 38^2}$.
+
+[id=3539] If $$1+12+123+1234+12345+123456+1234567+12345678$$is congruent to $n$ modulo 9, where $0\le n<9$, what is the value of $n$?
+
+[id=3873] What, in degrees, is the measure of the largest angle in $\triangle PQR?$
+
+[asy]
+draw((0,0)--(-1.3,4)--(7,0)--cycle);
+label("$P$",(-1.3,4),NW); label("$Q$",(0,0),SW); label("$R$",(7,0),SE);
+
+label("$6x^\circ$",(0,0),NE); label("$x^\circ$",(5,0),N); label("$3x^\circ$",(-.25,3));
+[/asy]
+
+[id=774] Robert is doing his quadratics factoring worksheet when a drop of ink ruins part of his work.
+
+The problem asks him to factor $-35-x+12 x^2$ and he has correctly figured out one of two factors: $(3x + 5).$ What must be the other factor?
+
+[id=2469] Compute the number of ordered pairs $(a,b)$ of integers such that the polynomials $x^2 - ax + 24$ and $x^2 - bx + 36$ have one root in common.
+
+[id=4091] Simplify the expression $\sqrt{7!}$, where $n!$ stands for $n\cdot(n-1)\cdot(n-2)\cdots \cdot 2\cdot 1$.
+
+[id=1115] What is the smallest two-digit positive integer such that the product of its two digits is one-half the integer?
+
+[id=2099] Two parallel chords in a circle have lengths 10 and 14, and the distance between them is 6. The chord parallel to these chords and midway between them is of length $\sqrt{a}$. Find the value of $a$. [asy]
+import olympiad; import geometry; size(100); defaultpen(linewidth(0.8));
+draw(unitcircle);
+draw(Label("14",align=N),dir(30)--dir(150));
+draw(Label("10",align=N),dir(-40)--dir(-140));
+draw(Label("$\sqrt{a}$",align=N),dir(-5)--dir(-175));
+distance(rotate(90)*"6",(1,Sin(30)),(1,Sin(-40)),-9,Arrows(size=1));
+
+[/asy]
+
+[id=931] If $f(x)=5x-12$, find a value for $x$ so that $f^{-1}(x)=f(x+1)$.

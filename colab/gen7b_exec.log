@@ -1,0 +1,12 @@
+heartbeat 1740s
+heartbeat 1800s
+heartbeat 1860s
+heartbeat 1920s
+heartbeat 1980s
+finished; results exist: True
+(EngineCore pid=3829) INFO 10-10 13:46:53 [core.py:1409] [shutdown] EngineCore: trigger received signal=SIGTERM
+(EngineCore pid=3829) INFO 10-10 13:46:53 [core.py:1558] [shutdown] EngineCore: start mode=abort timeout=0s
+(EngineCore pid=3829) INFO 10-10 13:46:53 [core.py:1589] [shutdown] EngineCore: request processing complete; starting resource teardown
+(EngineCore pid=3829) INFO 10-10 13:46:53 [core.py:1422] [shutdown] EngineCore: exiting busy loop
+done
+

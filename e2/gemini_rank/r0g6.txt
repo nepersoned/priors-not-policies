@@ -1,0 +1,90 @@
+You are an expert competition-math coach. Rank the following problems from HARDEST to EASIEST for small open language models (around 1B-7B parameters) answering in a single attempt. Consider the number of reasoning steps, the chance of an arithmetic slip, and how unusual the required idea is. Do not solve them. Output exactly one line: RANKING: followed by all the ids, hardest first, separated by commas.
+
+[id=2099] Two parallel chords in a circle have lengths 10 and 14, and the distance between them is 6. The chord parallel to these chords and midway between them is of length $\sqrt{a}$. Find the value of $a$. [asy]
+import olympiad; import geometry; size(100); defaultpen(linewidth(0.8));
+draw(unitcircle);
+draw(Label("14",align=N),dir(30)--dir(150));
+draw(Label("10",align=N),dir(-40)--dir(-140));
+draw(Label("$\sqrt{a}$",align=N),dir(-5)--dir(-175));
+distance(rotate(90)*"6",(1,Sin(30)),(1,Sin(-40)),-9,Arrows(size=1));
+
+[/asy]
+
+[id=2192] If $3+\sqrt{5}$ is a root of the equation \[x^2 - 3x + b = 0,\]compute $b.$
+
+[id=1521] Julie baked cupcakes for her family at home and for a party at school. She iced 4 cupcakes with red frosting, 2 cupcakes with orange frosting, 2 with yellow, 2 with green, 3 with blue and the last 3 with violet frosting. Each cupcake is iced with exactly one color of frosting. Julie plans to take exactly 10 of the cupcakes to her party, and will take either all of the cupcakes of a particular color or none of the cupcakes of that color. How many different combinations of cupcakes could she take to her party?
+
+[id=3951] If no one shares an office, in how many ways can 3 people be assigned to 5 different offices? (Each person gets exactly one office).
+
+[id=785] Find $y$: $\sqrt{19+3y} = 7$.
+
+[id=2155] Let $x,$ $y,$ $z$ be positive real numbers such that $x^2 + y^2 + z^2 = 1.$  Find the maximum value of
+\[xy \sqrt{10} + yz.\]
+
+[id=2539] Let $f$ be the function defined by $f(x) = x^3 - 49x^2 + 623x - 2015,$ and let $g(x) = f(x + 5).$  Compute the sum of the roots of $g.$
+
+[id=4186] What is the greatest multiple of 99 that is less than 0?
+
+[id=3605] This graph shows the number of days in October that Carla studied for particular periods of time. For example, on five different days in October she studied for exactly one hour. On how many days in October did Carla study three or more hours?
+
+[asy]size(150,150);
+draw((0,10)--(0,0)--(19,0));
+for(int i = 1; i<=10; ++i)
+{if(i!=5 &&i!= 10)
+{draw((-.5,i)--(.5,i)); draw((.5,i)--(19,i),linetype("1 4"));}
+else if(i==5)
+{draw((-.5,i)--(.5,i),W,linewidth(1.5));draw((.5,i)--(19,i),linetype("1 4"));}
+else
+{draw((-.5,i)--(.5,i),W,linewidth(1.5)); draw((.5,i)--(19,i),linetype("1 4"));}
+}
+label("5",(-.5,5),W,fontsize(8pt)); label("10",(-.5,10),W,fontsize(8pt));
+for(int i = 0;i<=5;++i)
+{label(string(i),(3i+2,-.5),S,fontsize(8pt));
+}
+void drawrect(int rectnumber, int height)
+{filldraw((3*rectnumber-2,0)--(3*rectnumber-2,height)--(3*rectnumber,height)--(3*rectnumber,0)--cycle,white);}
+drawrect(1,2); drawrect(2,5); drawrect(3,8); drawrect(4,10); drawrect(5,3); drawrect(6,3);
+label(rotate(90)*"\# of days (in Oct.)",(-2.5,5),W,fontsize(8pt)); label("hours studied per day",(19/2,-2.5),S,fontsize(8pt));[/asy]
+
+[id=3319] How many digits are there in the number $2^3 \cdot 3^1 \cdot 4^3 \cdot 5^8$ ?
+
+[id=4258] I am going to buy exotic fruits.  Dragonfruit costs $x-4$ dollars.  Starfruit is five dollars less expensive than rambutan.  Rambutan costs $2x$ dollars more than dragonfruit.  How much does it cost to buy one rambutan, two starfruit, and three dragonfruit? Your answer will be an expression that depends on $x$.
+
+[id=4207] What is the 20th digit in the decimal expansion for the sum of $\frac{2}{9}$ and $\frac{1}{7}$?
+
+[id=665] The smallest distance between the origin and a point on the parabola $y=x^2-5$ can be expressed as $\sqrt{a}/b$, where $a$ and $b$ are positive integers, and $a$ is not divisible by the square of any prime.  Find $a+b$.
+
+[id=418] At her track meet, Alice ran at a speed of $9\ \text{m/s}$ for $12$ seconds. How many meters did she run?
+
+[id=4779] Find $b + h.$
+
+[asy]
+unitsize(0.2 cm);
+
+pair A, B, C, D, E, F;
+
+A = (0,0);
+B = (20,0);
+C = (20,15);
+
+D = (30,0);
+E = (30 + 7,0);
+F = (30 + 7,25);
+
+draw(A--B--C--cycle);
+draw(D--E--F--cycle);
+draw(rightanglemark(A,B,C,40));
+draw(rightanglemark(D,E,F,40));
+
+label("$\theta$", (4,1.5));
+label("$20$", (A + B)/2, S);
+label("$15$", (B + C)/2, dir(0));
+label("$25$", (A + C)/2, NW);
+
+label("$2 \theta$", D + (2,1.5));
+label("$b$", (D + E)/2, S);
+label("$h$", (E + F)/2, dir(0));
+label("$25$", (D + F)/2, NW);
+[/asy]
+
+[id=1859] What is the area in square units of the convex quadrilateral with vertices $(-1, 0)$, $(0, 1)$, $(2, 0)$ and $(0, -3)$?

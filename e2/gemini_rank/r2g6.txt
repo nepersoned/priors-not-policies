@@ -1,0 +1,46 @@
+You are an expert competition-math coach. Rank the following problems from HARDEST to EASIEST for small open language models (around 1B-7B parameters) answering in a single attempt. Consider the number of reasoning steps, the chance of an arithmetic slip, and how unusual the required idea is. Do not solve them. Output exactly one line: RANKING: followed by all the ids, hardest first, separated by commas.
+
+[id=4907] Find the sum of the values of $x$ such that $\cos^{3}3x+\cos^{3}5x= 8\cos^{3}4x\cos^{3}x$, where $x$ is measured in degrees and $100 ^\circ < x < 200^\circ$.
+
+[id=4427] A watered circular field (shaded) is inscribed in a square plot of land. The square plot has sides of length 500 meters. What is the area of the land that is not watered? Express your answer to the nearest thousand square meters.
+
+[asy]
+draw((0,0)--(10,0)--(10,10)--(0,10)--cycle,linewidth(1));
+fill(Circle((5,5),5),gray(0.7));
+draw(Circle((5,5),5),linewidth(1));
+[/asy]
+
+[id=1773] If a pyramid has $14$ edges, how many vertices does it have?
+
+[id=1541] Mike draws five cards from a standard 52-card deck. What is the probability that he draws a card from at least three of the four suits? Express your answer as a simplified fraction.
+
+[id=4592] Compute $\sin^{-1} (\sin 3) + \sin^{-1} (\sin 4) + \sin^{-1} (\sin 5).$  All functions are in radians.
+
+[id=3873] What, in degrees, is the measure of the largest angle in $\triangle PQR?$
+
+[asy]
+draw((0,0)--(-1.3,4)--(7,0)--cycle);
+label("$P$",(-1.3,4),NW); label("$Q$",(0,0),SW); label("$R$",(7,0),SE);
+
+label("$6x^\circ$",(0,0),NE); label("$x^\circ$",(5,0),N); label("$3x^\circ$",(-.25,3));
+[/asy]
+
+[id=3710] What is the greatest common factor of 180 and 450?
+
+[id=1641] We call a number a descending number if each digit is strictly smaller than the digit that comes before it.  For example, 863 is a descending number.  How many 3-digit descending numbers are there?
+
+[id=785] Find $y$: $\sqrt{19+3y} = 7$.
+
+[id=3319] How many digits are there in the number $2^3 \cdot 3^1 \cdot 4^3 \cdot 5^8$ ?
+
+[id=2153] The function $f(n)$ satisfies $f(1) = 1$ and $f(2n + 1) = f(n) + 1$ for $n \ge 0.$  Find $f(15).$
+
+[id=3519] Find the product of $6_8 \cdot 7_8.$ Express your answer in base $8.$
+
+[id=541] I pick two whole numbers $x$ and $y$ between $1$ and $10$ inclusive (not necessarily distinct). My friend picks two numbers $x -4$ and $2y-1$. If the product of my friend's numbers is one greater than the product of my numbers, then what is the product of my numbers?
+
+[id=283] The sum of three numbers $a, b$ and $c$ is 88. If we decrease $a$ by 5, we get $N$. If we increase $b$ by 5, we get $N$. If we multiply $c$ by 5, we get $N$. What is the value of $N$?
+
+[id=82] The sum of the two $5$-digit numbers $AMC10$ and $AMC12$ is $123422.$ What is $A + M + C?$
+
+[id=1235] When Trilisa takes pictures, they turn out with probability $\frac{1}{5}$. She wants to take enough pictures so that the probability of at least one turning out is at least $\frac{3}{4}$. How few pictures can she take to accomplish this?

@@ -1,0 +1,53 @@
+You are an expert competition-math coach. Rank the following problems from HARDEST to EASIEST for small open language models (around 1B-7B parameters) answering in a single attempt. Consider the number of reasoning steps, the chance of an arithmetic slip, and how unusual the required idea is. Do not solve them. Output exactly one line: RANKING: followed by all the ids, hardest first, separated by commas.
+
+[id=2192] If $3+\sqrt{5}$ is a root of the equation \[x^2 - 3x + b = 0,\]compute $b.$
+
+[id=3710] What is the greatest common factor of 180 and 450?
+
+[id=3620] The first round of the 2010 FIFA World Cup consisted of several groups of four teams each. Within each group, each of the four teams played each other once. How many matches were there in each group?
+
+[id=283] The sum of three numbers $a, b$ and $c$ is 88. If we decrease $a$ by 5, we get $N$. If we increase $b$ by 5, we get $N$. If we multiply $c$ by 5, we get $N$. What is the value of $N$?
+
+[id=876] What is the slope of a line perpendicular to the line whose equation is $\frac{x}4-\frac{y}5=1$? Express your answer as a common fraction.
+
+[id=2709] The function $f(x)$ satisfies
+\[f(f(x)) = 6x - 2005\]for all real numbers $x.$  There exists an integer $n$ such that $f(n) = 6n - 2005.$  Find $n.$
+
+[id=3885] In a class of $30$ students, exactly $7$ have been to Mexico and exactly $11$ have been to England. Of these $30$ students, $4$ have been to both Mexico and England. How many students in this class have not been to Mexico or England?
+
+[id=3665] What is one half of $\dfrac{1}{100}$ of $9000$?
+
+[id=2555] Let $r_1,$ $r_2,$ $\dots,$ $r_{98}$ be the roots of
+\[x^{98} + x^{97} + x^{96} + \dots + x^2 + x + 1 = 0.\]Find
+\[\frac{r_1^2}{r_1 + 1} + \frac{r_2^2}{r_2 + 1} + \dots + \frac{r_{98}^2}{r_{98} + 1}.\]
+
+[id=1003] What is the domain of the function $$f(x) = \frac{(2x-3)(2x+5)}{(3x-9)(3x+6)}~?$$ Express your answer as an interval or as a union of intervals.
+
+[id=2024] Points $A, B, C$ and $D$ have these coordinates: $A(3,2)$, $B(3,-2)$, $C(-3,-2)$ and $D(-3,0)$. What is the area of quadrilateral $ABCD$?
+
+[id=898] What is the circumference of the circle with center at $P$ and passing through $Q$? Express your answer in terms of $\pi$.
+
+[asy]
+size(150); pair P = (-2,3), Q=(10,-2); string stringpair(pair p){return "$("+string(p.x)+", "+string(p.y)+"$)";}
+draw((-15,0)--(15,0),Arrows(4)); draw((0,-15)--(0,15),Arrows(4));
+dot("$Q$"+stringpair(Q),Q,SE,linewidth(3)); dot("$P$"+stringpair(P),P,NW,linewidth(3));
+
+[/asy]
+
+[id=2425] The ellipse \[\frac{(x-6)^2}{25} + \frac{(y-3)^2}{9} = 1\]has two foci. Find the one with the larger $x$-coordinate. Enter your answer as an ordered pair, like "(2, 1)".
+
+[id=751] The integers 2 through 9 are each placed in the figure with one integer in each of the eight smallest triangles. The integers are placed so that the pairs of integers in each of the four smallest squares have the same sum. What is that sum?
+
+[asy]
+size(101);
+draw(unitsquare);
+draw(shift(up)*shift(right)*unitsquare);
+filldraw(shift(up)*unitsquare,gray(.6));
+filldraw(shift(right)*unitsquare,gray(.6));
+draw((0,0)--(2,2)^^(0,2)--(2,0));
+[/asy]
+
+[id=1773] If a pyramid has $14$ edges, how many vertices does it have?
+
+[id=2210] Find the maximum value of
+\[f(x,y) = x \sqrt{1 - y^2} + y \sqrt{1 - x^2},\]where $-1 \le x,$ $y \le 1.$

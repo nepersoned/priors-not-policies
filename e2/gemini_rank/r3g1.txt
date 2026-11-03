@@ -1,0 +1,53 @@
+You are an expert competition-math coach. Rank the following problems from HARDEST to EASIEST for small open language models (around 1B-7B parameters) answering in a single attempt. Consider the number of reasoning steps, the chance of an arithmetic slip, and how unusual the required idea is. Do not solve them. Output exactly one line: RANKING: followed by all the ids, hardest first, separated by commas.
+
+[id=1563] For how many integers $n$ where $2 \le n \le 100$ is $\binom{n}{2}$ odd?
+
+[id=2350] Compute
+\[\sum_{k = 1}^\infty \frac{k + 2}{k! + (k + 1)! + (k + 2)!}.\]
+
+[id=3951] If no one shares an office, in how many ways can 3 people be assigned to 5 different offices? (Each person gets exactly one office).
+
+[id=1521] Julie baked cupcakes for her family at home and for a party at school. She iced 4 cupcakes with red frosting, 2 cupcakes with orange frosting, 2 with yellow, 2 with green, 3 with blue and the last 3 with violet frosting. Each cupcake is iced with exactly one color of frosting. Julie plans to take exactly 10 of the cupcakes to her party, and will take either all of the cupcakes of a particular color or none of the cupcakes of that color. How many different combinations of cupcakes could she take to her party?
+
+[id=1235] When Trilisa takes pictures, they turn out with probability $\frac{1}{5}$. She wants to take enough pictures so that the probability of at least one turning out is at least $\frac{3}{4}$. How few pictures can she take to accomplish this?
+
+[id=2539] Let $f$ be the function defined by $f(x) = x^3 - 49x^2 + 623x - 2015,$ and let $g(x) = f(x + 5).$  Compute the sum of the roots of $g.$
+
+[id=2880] There exist constants $A,$ $B,$ and $C$ so that
+\[\frac{x + 2}{x(x + 1)(x + 3)} = \frac{A}{x} + \frac{B}{x + 1} + \frac{C}{x + 3}.\]Find the product $ABC.$
+
+[id=240] Evaluate $\left\lceil\sqrt{27}\right\rceil - \left\lfloor\sqrt{26}\right\rfloor$.
+
+[id=3888] Annie's soccer team is conducting a passing drill in which each of the 11 members of the soccer team must pass the ball to each of the other members exactly three times. How many times must the ball be passed before the passing drill is over?
+
+[id=1484] Three cards are dealt at random from a standard deck (13 clubs, 13 diamonds, 13 hearts, and 13 spades) of 52 cards.  What is the probability that all three cards are $\heartsuit$s?
+
+[id=1305] What is the probability that if you roll two fair, standard six-sided dice, the difference between the two numbers rolled will be 0? Express your answer as a common fraction.
+
+[id=4659] In the diagram below, we have $AB = 24$ and $\angle ADB =90^\circ$.  If $\sin A = \frac23$ and $\sin C = \frac34$, then what is $BC$?
+
+
+[asy]
+pair A,B,C,D;
+A = (0,0);
+B = (8*sqrt(5),16);
+D = (8*sqrt(5),0);
+C = (8*sqrt(5) + 5.3333*sqrt(7),0);
+draw(D--B--A--C--B);
+label("$A$",A,SW);
+label("$B$",B,N);
+label("$C$",C,SE);
+label("$D$",D,S);
+draw(rightanglemark(B,D,A,43));
+[/asy]
+
+[id=82] The sum of the two $5$-digit numbers $AMC10$ and $AMC12$ is $123422.$ What is $A + M + C?$
+
+[id=1170] If \begin{align*}
+4x-y+2z&=7,\\
+6x+3y+3z&=5,
+\end{align*} compute $y$.
+
+[id=639] Let $f(x) = 2x - 3$ and $g(f(x)) = 5-4x.$ Find $g(4).$
+
+[id=1906] Sally has a cube of side length $s$ units such that the number of square units in the surface area of the cube equals $\frac{1}{6}$ of the number of cubic units in the volume. She also wants to make a square for which the number of square units in the area of the square is equal to the number of cubic units in the volume of the cube. What should the side length of the square be?

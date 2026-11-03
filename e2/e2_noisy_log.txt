@@ -1,0 +1,11 @@
+﻿noise done MATH_Pythia-1.4B
+noise done MATH_Pythia-6.9B
+noise done MATH_Gemma-2B
+noise done MATH_Llama-3-8B-Instruct
+noise done MATH_Llama-3-70B-Instruct
+signals done MATH_Pythia-1.4B
+signals done MATH_Pythia-6.9B
+signals done MATH_Gemma-2B
+signals done MATH_Llama-3-8B-Instruct
+signals done MATH_Llama-3-70B-Instruct
+saved
